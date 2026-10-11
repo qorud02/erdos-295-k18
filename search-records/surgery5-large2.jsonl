@@ -1,0 +1,7 @@
+{"event": "start", "args": {"remove": 5, "required_large": 2, "seconds": 120.0, "per_case": 1.0, "start": 0, "output": "surgery5-large2.jsonl"}, "scope": "local subset replacement; no denominator cap"}
+{"event": "case", "index": 0, "removed": [18, 19, 20, 14143068, 10457416992], "status": "exhausted", "nodes": 3, "elapsed_seconds": 0.0}
+{"event": "case", "index": 1000, "removed": [20, 24, 48, 14143068, 10457416992], "status": "exhausted", "nodes": 9, "elapsed_seconds": 0.0}
+{"event": "case", "index": 2000, "removed": [22, 44, 46, 14143068, 10457416992], "status": "exhausted", "nodes": 30, "elapsed_seconds": 0.0}
+{"event": "case", "index": 3000, "removed": [26, 30, 32, 14143068, 10457416992], "status": "exhausted", "nodes": 12, "elapsed_seconds": 0.0}
+{"event": "case", "index": 4000, "removed": [31, 32, 45, 14143068, 10457416992], "status": "exhausted", "nodes": 32, "elapsed_seconds": 0.0}
+{"event": "result", "status": "family_exhausted", "elapsed_seconds": 13.125, "cases_exhausted": 4960, "cases_timed_out": 0, "next_index": 4960, "nodes": 366109, "quadratic_two_prunes": 334933, "two_candidates": 1, "witness": null}

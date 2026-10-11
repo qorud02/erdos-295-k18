@@ -1,3 +1,5 @@
 __pycache__/
-*.pyc
-ci-lower-bound.jsonl
+*.py[cod]
+*.obj
+*.exe
+*.dll

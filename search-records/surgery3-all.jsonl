@@ -1,0 +1,8 @@
+{"event": "start", "args": {"remove": 3, "required_large": 0, "seconds": 60.0, "per_case": 1.0, "start": 0, "output": "surgery3-all.jsonl"}, "scope": "local subset replacement; no denominator cap"}
+{"event": "case", "index": 0, "removed": [18, 19, 20], "status": "exhausted", "nodes": 1, "elapsed_seconds": 0.0}
+{"event": "case", "index": 1000, "removed": [19, 48, 275], "status": "exhausted", "nodes": 1, "elapsed_seconds": 0.0}
+{"event": "case", "index": 2000, "removed": [22, 25, 54], "status": "exhausted", "nodes": 1, "elapsed_seconds": 0.0}
+{"event": "case", "index": 3000, "removed": [24, 43, 63], "status": "exhausted", "nodes": 1, "elapsed_seconds": 0.0}
+{"event": "case", "index": 4000, "removed": [28, 30, 275], "status": "exhausted", "nodes": 1, "elapsed_seconds": 0.0}
+{"event": "case", "index": 5000, "removed": [32, 52, 54], "status": "exhausted", "nodes": 1, "elapsed_seconds": 0.0}
+{"event": "result", "status": "family_exhausted", "elapsed_seconds": 0.375, "cases_exhausted": 5984, "cases_timed_out": 0, "next_index": 5984, "nodes": 5984, "quadratic_two_prunes": 5593, "two_candidates": 1800, "witness": null}

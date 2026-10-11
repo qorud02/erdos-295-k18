@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "seed": 2953312,
+  "genuine_witness_controls": 1000,
+  "two_term_direct_scan_oracles": 2000
+}

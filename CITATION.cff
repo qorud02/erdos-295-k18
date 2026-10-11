@@ -1,13 +1,12 @@
 cff-version: 1.2.0
 message: "Please cite the research note and exact certificate."
-title: "A 34-term unit-fraction expansion with minimum denominator 18"
+title: "Local exchange exclusions and overlap-constrained Egyptian-fraction search"
 type: software
 authors:
   - family-names: Bae
     given-names: Kyunghan
     affiliation: ""
-version: 1.0.0
-date-released: 2026-10-11
+version: 1.1.0
+date-released: 2026-10-12
 url: "https://github.com/qorud02/erdos-295-k18"
 license: MIT
-doi: "10.5281/zenodo.23297810"

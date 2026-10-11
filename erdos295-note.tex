@@ -13,8 +13,8 @@
 \begin{abstract}
 We exhibit 34 distinct integers at least 18 whose reciprocals sum to one.
 An integer certificate proves $k(18)\le34$. Together with the previously
-reported computational lower bound, independently reproduced in the accompanying
-code, this gives $33\le k(18)\le34$.
+reported computational lower bound, reproduced using the same recurrence with
+additional pruning in the accompanying code, this gives $33\le k(18)\le34$.
 \end{abstract}
 
 Let $k(N)$ be the least number of distinct integers
@@ -44,8 +44,9 @@ Divide by $L$. The cardinality, distinctness, and minimum follow directly
 from the displayed set.
 \end{proof}
 
-The construction follows from the published 35-term certificate in
-White's report~\cite{white} by the five-to-four replacement
+The construction was found by replacing five terms of the published
+35-term certificate in
+White's report~\cite{white} with four, using
 \[
 \begin{split}
 &\frac1{42}+\frac1{640}+\frac1{337280}
@@ -75,7 +76,9 @@ denominator at least $D_0$, the first denominator lies in
 \]
 Exact harmonic upper bounds and prime-power conditions prune impossible
 branches. With two terms left, $y=bx/(ax-b)$ is checked by exact integer
-division. There is no imposed denominator cap. Proof details and completed
+division when a candidate reaches this step. No denominator cap is imposed.
+In the completed 32-term run, the quadratic bound rejected every two-term
+state before enumeration, so zero terminal candidates were tested. Proof details and completed
 logs accompany this note as \texttt{proofs.md},
 \texttt{early-n18-t32.log}, \texttt{independent-native-validation.jsonl},
 and \texttt{cpp-n18-t32.log}.

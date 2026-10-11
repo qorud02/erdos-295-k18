@@ -1,0 +1,4 @@
+{"event": "start", "args": {"remove": 6, "required_large": 2, "seconds": 120.0, "per_case": 2.0, "start": 33954, "output": "surgery6-large2-resume.jsonl"}, "scope": "local subset replacement; no denominator cap"}
+{"event": "case", "index": 34000, "removed": [33, 40, 46, 50, 14143068, 10457416992], "status": "exhausted", "nodes": 446, "elapsed_seconds": 0.0}
+{"event": "case", "index": 35000, "removed": [36, 38, 45, 52, 14143068, 10457416992], "status": "exhausted", "nodes": 519, "elapsed_seconds": 0.01600000000325963}
+{"event": "result", "status": "family_exhausted", "elapsed_seconds": 77.625, "cases_exhausted": 2006, "cases_timed_out": 0, "next_index": 35960, "nodes": 6167684, "quadratic_two_prunes": 5822515, "two_candidates": 3453, "witness": null}

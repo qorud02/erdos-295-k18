@@ -1,0 +1,86 @@
+{
+  "surgery3-all.jsonl": {
+    "event": "result",
+    "status": "family_exhausted",
+    "elapsed_seconds": 0.375,
+    "cases_exhausted": 5984,
+    "cases_timed_out": 0,
+    "next_index": 5984,
+    "nodes": 5984,
+    "quadratic_two_prunes": 5593,
+    "two_candidates": 1800,
+    "witness": null
+  },
+  "surgery4-all.jsonl": {
+    "event": "result",
+    "status": "family_exhausted",
+    "elapsed_seconds": 6.171999999991385,
+    "cases_exhausted": 46376,
+    "cases_timed_out": 0,
+    "next_index": 46376,
+    "nodes": 69812,
+    "quadratic_two_prunes": 23230,
+    "two_candidates": 1215,
+    "witness": null
+  },
+  "surgery4-large2.jsonl": {
+    "event": "result",
+    "status": "family_exhausted",
+    "elapsed_seconds": 0.32800000000861473,
+    "cases_exhausted": 496,
+    "cases_timed_out": 0,
+    "next_index": 496,
+    "nodes": 5353,
+    "quadratic_two_prunes": 4857,
+    "two_candidates": 0,
+    "witness": null
+  },
+  "surgery5-all.jsonl": {
+    "event": "result",
+    "status": "family_exhausted",
+    "elapsed_seconds": 95.78100000001723,
+    "cases_exhausted": 278256,
+    "cases_timed_out": 0,
+    "next_index": 278256,
+    "nodes": 1139247,
+    "quadratic_two_prunes": 710768,
+    "two_candidates": 6042,
+    "witness": null
+  },
+  "surgery5-large2.jsonl": {
+    "event": "result",
+    "status": "family_exhausted",
+    "elapsed_seconds": 13.125,
+    "cases_exhausted": 4960,
+    "cases_timed_out": 0,
+    "next_index": 4960,
+    "nodes": 366109,
+    "quadratic_two_prunes": 334933,
+    "two_candidates": 1,
+    "witness": null
+  },
+  "surgery6-large2-resume.jsonl": {
+    "event": "result",
+    "status": "family_exhausted",
+    "elapsed_seconds": 77.625,
+    "cases_exhausted": 2006,
+    "cases_timed_out": 0,
+    "next_index": 35960,
+    "nodes": 6167684,
+    "quadratic_two_prunes": 5822515,
+    "two_candidates": 3453,
+    "witness": null
+  },
+  "surgery6-large2.jsonl": {
+    "event": "result",
+    "status": "incomplete",
+    "elapsed_seconds": 180.0,
+    "cases_exhausted": 33954,
+    "cases_timed_out": 1,
+    "next_index": 33955,
+    "nodes": 7486856,
+    "quadratic_two_prunes": 6744718,
+    "two_candidates": 16,
+    "witness": null
+  }
+}

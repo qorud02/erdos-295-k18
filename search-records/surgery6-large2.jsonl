@@ -1,0 +1,37 @@
+{"event": "start", "args": {"remove": 6, "required_large": 2, "seconds": 180.0, "per_case": 1.0, "start": 0, "output": "surgery6-large2.jsonl"}, "scope": "local subset replacement; no denominator cap"}
+{"event": "case", "index": 0, "removed": [18, 19, 20, 21, 14143068, 10457416992], "status": "exhausted", "nodes": 5, "elapsed_seconds": 0.0}
+{"event": "case", "index": 1000, "removed": [18, 21, 28, 44, 14143068, 10457416992], "status": "exhausted", "nodes": 13, "elapsed_seconds": 0.0}
+{"event": "case", "index": 2000, "removed": [18, 24, 29, 50, 14143068, 10457416992], "status": "exhausted", "nodes": 19, "elapsed_seconds": 0.0}
+{"event": "case", "index": 3000, "removed": [18, 28, 31, 39, 14143068, 10457416992], "status": "exhausted", "nodes": 20, "elapsed_seconds": 0.0}
+{"event": "case", "index": 4000, "removed": [18, 34, 43, 52, 14143068, 10457416992], "status": "exhausted", "nodes": 115, "elapsed_seconds": 0.0}
+{"event": "case", "index": 5000, "removed": [19, 21, 25, 54, 14143068, 10457416992], "status": "exhausted", "nodes": 15, "elapsed_seconds": 0.0}
+{"event": "case", "index": 6000, "removed": [19, 24, 26, 63, 14143068, 10457416992], "status": "exhausted", "nodes": 23, "elapsed_seconds": 0.0}
+{"event": "case", "index": 7000, "removed": [19, 27, 48, 50, 14143068, 10457416992], "status": "exhausted", "nodes": 71, "elapsed_seconds": 0.0}
+{"event": "case", "index": 8000, "removed": [19, 34, 35, 44, 14143068, 10457416992], "status": "exhausted", "nodes": 47, "elapsed_seconds": 0.0}
+{"event": "case", "index": 9000, "removed": [20, 22, 25, 45, 14143068, 10457416992], "status": "exhausted", "nodes": 14, "elapsed_seconds": 0.0}
+{"event": "case", "index": 10000, "removed": [20, 25, 30, 36, 14143068, 10457416992], "status": "exhausted", "nodes": 18, "elapsed_seconds": 0.0}
+{"event": "case", "index": 11000, "removed": [20, 29, 38, 54, 14143068, 10457416992], "status": "exhausted", "nodes": 61, "elapsed_seconds": 0.0}
+{"event": "case", "index": 12000, "removed": [20, 39, 43, 45, 14143068, 10457416992], "status": "exhausted", "nodes": 124, "elapsed_seconds": 0.0}
+{"event": "case", "index": 13000, "removed": [21, 24, 30, 36, 14143068, 10457416992], "status": "exhausted", "nodes": 18, "elapsed_seconds": 0.0}
+{"event": "case", "index": 14000, "removed": [21, 28, 31, 63, 14143068, 10457416992], "status": "exhausted", "nodes": 46, "elapsed_seconds": 0.0}
+{"event": "case", "index": 15000, "removed": [21, 34, 44, 63, 14143068, 10457416992], "status": "exhausted", "nodes": 177, "elapsed_seconds": 0.0}
+{"event": "case", "index": 16000, "removed": [22, 24, 34, 50, 14143068, 10457416992], "status": "exhausted", "nodes": 32, "elapsed_seconds": 0.0}
+{"event": "case", "index": 17000, "removed": [22, 28, 36, 63, 14143068, 10457416992], "status": "exhausted", "nodes": 65, "elapsed_seconds": 0.01600000000325963}
+{"event": "case", "index": 18000, "removed": [22, 35, 40, 275, 14143068, 10457416992], "status": "exhausted", "nodes": 605, "elapsed_seconds": 0.0470000000204891}
+{"event": "case", "index": 19000, "removed": [23, 26, 27, 45, 14143068, 10457416992], "status": "exhausted", "nodes": 20, "elapsed_seconds": 0.0}
+{"event": "case", "index": 20000, "removed": [23, 30, 43, 50, 14143068, 10457416992], "status": "exhausted", "nodes": 85, "elapsed_seconds": 0.015000000013969839}
+{"event": "case", "index": 21000, "removed": [23, 50, 52, 54, 14143068, 10457416992], "status": "exhausted", "nodes": 535, "elapsed_seconds": 0.01600000000325963}
+{"event": "case", "index": 22000, "removed": [24, 29, 31, 33, 14143068, 10457416992], "status": "exhausted", "nodes": 22, "elapsed_seconds": 0.0}
+{"event": "case", "index": 23000, "removed": [24, 36, 45, 54, 14143068, 10457416992], "status": "exhausted", "nodes": 191, "elapsed_seconds": 0.0}
+{"event": "case", "index": 24000, "removed": [25, 28, 52, 275, 14143068, 10457416992], "status": "exhausted", "nodes": 747, "elapsed_seconds": 0.01600000000325963}
+{"event": "case", "index": 25000, "removed": [25, 36, 40, 54, 14143068, 10457416992], "status": "exhausted", "nodes": 147, "elapsed_seconds": 0.0}
+{"event": "case", "index": 26000, "removed": [26, 30, 33, 34, 14143068, 10457416992], "status": "exhausted", "nodes": 31, "elapsed_seconds": 0.0}
+{"event": "case", "index": 27000, "removed": [26, 43, 46, 48, 14143068, 10457416992], "status": "exhausted", "nodes": 282, "elapsed_seconds": 0.014999999984866008}
+{"event": "case", "index": 28000, "removed": [27, 33, 36, 46, 14143068, 10457416992], "status": "exhausted", "nodes": 81, "elapsed_seconds": 0.0}
+{"event": "case", "index": 29000, "removed": [28, 30, 52, 54, 14143068, 10457416992], "status": "exhausted", "nodes": 209, "elapsed_seconds": 0.0}
+{"event": "case", "index": 30000, "removed": [29, 30, 32, 43, 14143068, 10457416992], "status": "exhausted", "nodes": 52, "elapsed_seconds": 0.015000000013969839}
+{"event": "case", "index": 31000, "removed": [29, 43, 44, 54, 14143068, 10457416992], "status": "exhausted", "nodes": 405, "elapsed_seconds": 0.01600000000325963}
+{"event": "case", "index": 32000, "removed": [30, 44, 45, 46, 14143068, 10457416992], "status": "exhausted", "nodes": 346, "elapsed_seconds": 0.0}
+{"event": "case", "index": 33000, "removed": [32, 33, 46, 50, 14143068, 10457416992], "status": "exhausted", "nodes": 244, "elapsed_seconds": 0.015000000013969839}
+{"event": "case", "index": 33954, "removed": [33, 39, 46, 48, 14143068, 10457416992], "status": "timeout", "nodes": 256, "elapsed_seconds": 0.01600000000325963}
+{"event": "result", "status": "incomplete", "elapsed_seconds": 180.0, "cases_exhausted": 33954, "cases_timed_out": 1, "next_index": 33955, "nodes": 7486856, "quadratic_two_prunes": 6744718, "two_candidates": 16, "witness": null}

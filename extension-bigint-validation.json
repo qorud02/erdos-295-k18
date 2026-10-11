@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "arithmetic": "JavaScript BigInt independent integer LCM sum",
+  "records": [
+    {
+      "N": 18,
+      "terms": 34,
+      "lcm": "6209352774424800",
+      "scaled_sum": "6209352774424800",
+      "status": "verified"
+    },
+    {
+      "N": 19,
+      "terms": 36,
+      "lcm": "6209352774424800",
+      "scaled_sum": "6209352774424800",
+      "status": "verified"
+    },
+    {
+      "N": 20,
+      "terms": 38,
+      "lcm": "2772929439982611617430667744800",
+      "scaled_sum": "2772929439982611617430667744800",
+      "status": "verified"
+    },
+    {
+      "N": 21,
+      "terms": 39,
+      "lcm": "207311948389939355504942400",
+      "scaled_sum": "207311948389939355504942400",
+      "status": "verified"
+    }
+  ]
+}

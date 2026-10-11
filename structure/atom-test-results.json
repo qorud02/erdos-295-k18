@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "python": "3.12.9 (tags/v3.12.9:fdb8142, Feb  4 2025, 15:27:58) [MSC v.1942 64 bit (AMD64)]",
+  "seed": 29520261012,
+  "totals": {
+    "random_cases": 700,
+    "enumerated_subsets": 82582,
+    "feasible_subsets": 53937,
+    "single_quota_formula_checks": 125,
+    "single_quota_api_checks": 125,
+    "laminar_api_checks": 200,
+    "dual_bound_checks": 501,
+    "resource_guard_checks": 2,
+    "invalid_input_checks": 10
+  },
+  "dual_module_checked": "dual_tools.py",
+  "quota_module_checked": "quota_tools.py",
+  "crossing_counterexample": {
+    "exact_maximum": "23/132",
+    "attaining_denominators": [
+      "11",
+      "12"
+    ],
+    "naive_greedy_sum": "6/35"
+  },
+  "sparse_exceptional_denominator_digits": 81,
+  "finite_oracle_window": "D..D+11; all generated exceptions <=D+6 and t<=4"
+}

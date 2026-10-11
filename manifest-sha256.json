@@ -1,110 +1,126 @@
 {
-  ".gitattributes": {
-    "bytes": 19,
-    "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
-  },
-  ".github/workflows/verify.yml": {
-    "bytes": 1262,
-    "sha256": "587c36e3ae67cdbfd220226d6f253e50273d82b4ad3b4deb65c9d9a71c7f1701"
-  },
-  ".gitignore": {
-    "bytes": 40,
-    "sha256": "778b27779e7667551ae5880de6930590bc7fa6f1d566b6be843dc19407448317"
-  },
-  "CITATION.cff": {
-    "bytes": 379,
-    "sha256": "ba93184368cf9ce12971476806c19f674dbc864e165bd27637f36d0637f0198a"
-  },
-  "LICENSE": {
-    "bytes": 1069,
-    "sha256": "660b3b57864aaed8c67415ea9f039bc2c947c8bc1c11de9a251a00951db07637"
-  },
-  "LICENSES.md": {
-    "bytes": 680,
-    "sha256": "ee37ce55412779c947e3a7c24fbc02b9d0d81dfeeeb945689565e7eb9bf11c15"
-  },
-  "NOTE.md": {
-    "bytes": 4862,
-    "sha256": "5eff1e876f2692f85943287d70d3ed25c09a886c391a0cdd19e19e89d3ebee0d"
-  },
-  "README.md": {
-    "bytes": 2764,
-    "sha256": "bac6c45ccc6a1a3605c4349ee677468e08219e544d39a56064582977942b4b33"
-  },
-  "certificate-34-independent.json": {
-    "bytes": 481,
-    "sha256": "1593f3c875c06d7aa5e2446e6977e2a4ee97dcc7b1de484e93b5476f616a219a"
-  },
-  "cpp-n18-t32.log": {
-    "bytes": 1509,
-    "sha256": "637ad6b95d432b2248737a5b094a80a24019324ff8d85605c5184168e1d8a1b0"
-  },
-  "early-n18-t32.log": {
-    "bytes": 6045,
-    "sha256": "ff51ba96a1ca0ad5827bce2c4ab06d00dc89ec49dffaf95dcb6f7c9c2ddcaa5e"
-  },
-  "erdos295-note.tex": {
-    "bytes": 5153,
-    "sha256": "40a6589c228d05855f3c2c94e5058bd8327a92a6677321ede70694c2da75ac84"
-  },
-  "independent-native-validation.jsonl": {
-    "bytes": 14169,
-    "sha256": "d76fdc307d29ec61f2fe4484816cd335b63d979128d09459e11cd84ba912aacf"
-  },
-  "proofs.md": {
-    "bytes": 6443,
-    "sha256": "5067f363d718e57665bf72a3a500e7ff72915ad3326cb020185899857b432d98"
-  },
-  "run-native.ps1": {
-    "bytes": 465,
-    "sha256": "1f25271830257656207f45da940c8d28266cd0d3b55efa0f75f8650ca451ef1c"
-  },
-  "search-cpp.cpp": {
-    "bytes": 12286,
-    "sha256": "63353f9010c84cec04662fd367befaeb089baf95f40eecbed73e27528df4790e"
-  },
-  "search-earlyterminal.py": {
-    "bytes": 1185,
-    "sha256": "60b8f4e5076cc3f0034ca8aff50856aa29fa39efa446928232ea17787dd716f4"
-  },
-  "search-fasttail.py": {
-    "bytes": 2864,
-    "sha256": "2d1929ddd20f24edc4753a61534d63cbb9d6a37f4e5fd0e1b9b5040b9aeeb510"
-  },
-  "search-independent.py": {
-    "bytes": 10038,
-    "sha256": "9b302843486e13d8ab0ddc1f54138a3a37d1c04199e3713b28390ca6e9556604"
-  },
-  "search-native.cs": {
-    "bytes": 9562,
-    "sha256": "e1c8e3976b6e5313fae0e052462b011eee9479f060994c3377d34b3859c916d4"
-  },
-  "search-runner.py": {
-    "bytes": 882,
-    "sha256": "c78ccbcaf312e34d0f995c0f804c578a0ad1b0dce2ca5ffa941c405e5b2ffba2"
-  },
-  "search-strong.py": {
-    "bytes": 2766,
-    "sha256": "7e5e1a9d2ddd1331ce855a6a5b5f6fa262afed40d4829cc8ee3353d6c116df43"
-  },
-  "search-terminalbound.py": {
-    "bytes": 1886,
-    "sha256": "ce66f09bbb79d3c22595fc822bd76746538fb41ca9bd0d288421f78c9b2a9762"
-  },
-  "verify-certificate-result.json": {
-    "bytes": 579,
-    "sha256": "d0bff36236f74690fb75684ac00aa843dec5beb4cf57d8e8aa5b4693fa7dda69"
-  },
-  "verify-certificate.py": {
-    "bytes": 2931,
-    "sha256": "2313ee84b4d3842ffecdf59a8b3a189c949641ae3aa8db60a2c4ddd2c7a2b1cf"
-  },
-  "verify-fasttail.json": {
-    "bytes": 136,
-    "sha256": "0ce3de797105a8e32902c3f531157df084df52c76613001ff98985c696e6b564"
-  },
-  "verify-fasttail.py": {
-    "bytes": 2021,
-    "sha256": "22a4e739dabb86926a90b9809ecb6879a4cc12aa7d87dd9128e6c0326e73556b"
-  }
+  ".gitattributes": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c",
+  ".github/workflows/verify.yml": "72d1cf0a747318811f8223d4f015b09041466e4027bba27c819dc89b1b2019fc",
+  ".gitignore": "1d6957b68870d8b0c6e44b3eca16d4f3bf8a5d4aff9c613d5f322e9939366e6c",
+  "certificate-34-independent.json": "1593f3c875c06d7aa5e2446e6977e2a4ee97dcc7b1de484e93b5476f616a219a",
+  "certificates-extension.json": "7f446365cd88f00ad96b1dfca41b195df2f0a012c09fc22b573b0aceb3ec3257",
+  "CITATION.cff": "e9fdd1e0452738937f3cbdcd530981768d5bb22fbe6401e0b9489863029eae02",
+  "construction/best-size-result.json": "62847441bdecc5f1ede1b9cc8244d22b4de8f961d7baceada51032419c5d0924",
+  "construction/build_certificates.py": "4e3dc0ccb1963df7a9ae18477c901f77483bd91a3829aa2228d253464f28a452",
+  "construction/construct_extensions.py": "96e9a79c90e22835fac0afe93024e8fcfa6d8ff2d9bb12fe8762c9c6ee735110",
+  "construction/constructed-extensions.json": "eb643ca46d584450b4b3c2fe1cc3db6dad9b291d1a47464e18de20c2bb4c801e",
+  "construction/direct-lift-results.json": "5d4907fddce5a6592d29cf8a8583f47b31d119dd51b5c56ad88da3074afc3e2d",
+  "construction/direct_lift.py": "49cc7af605fbaf9bba0fd3ca846a815c1389d5bcddf5e4bd23a003ccd5ffb61f",
+  "construction/extension-certificates.json": "0c46ca4c10a089ec9ec874f0e81db6a8340329958dda7a64ea458fb4696e2013",
+  "construction/extension-note.md": "ea4942b6d4f3f49935a5d215a0cc947a128b2ee29464d095bb4602e67cee9d31",
+  "construction/extension-verification.json": "131bed734b2ee46eee9aa044069dcbe92fbb7c991739b6aa6d7aeb60b65d087c",
+  "construction/lift-results.json": "c14cd3c27c3cd96a70893f4dd2112fddd4dc158cab849b8e819fce53e6a54602",
+  "construction/lift_search.py": "c0d8b17a6e9a848af1d94c0654e06a328a6064f12339906e7b124aa4ef73a5b9",
+  "construction/optimize_tail_size.py": "752f25848e877e76223055fcb4eb94794c5fa1a0c5ace71d4493d26b2570ce93",
+  "construction/README.md": "67b6a9b770ea9a743729bf9f035d83486f094e7b2d4af5b8acaf4ee5270891d7",
+  "construction/search-deps/search-earlyterminal.py": "60b8f4e5076cc3f0034ca8aff50856aa29fa39efa446928232ea17787dd716f4",
+  "construction/search-deps/search-independent.py": "9b302843486e13d8ab0ddc1f54138a3a37d1c04199e3713b28390ca6e9556604",
+  "construction/search-deps/search-strong.py": "7e5e1a9d2ddd1331ce855a6a5b5f6fa262afed40d4829cc8ee3353d6c116df43",
+  "construction/search-deps/search-terminalbound.py": "ce66f09bbb79d3c22595fc822bd76746538fb41ca9bd0d288421f78c9b2a9762",
+  "construction/SEARCH_PROVENANCE.md": "83b5bfff665cb9a96667b133a8fb3cda4b5aaf304b5532632edcdc0f0536338b",
+  "construction/tail-refinement-results.json": "49ae6300a2471950ffc7d69813769a6225f931eac5c2924f7c946f6e9087cf95",
+  "construction/tail_refine.py": "c77f53d3cf149e8582d9bbeafc2530d215d5ade684a788a910a4ed7f1de645d5",
+  "construction/tail_refine_witness.py": "191fadd493c00ecd95d6caaeac6e58fde85e6c9c085b53ca69fd9dc3cadd5215",
+  "construction/verify_extensions.py": "7823e49b52c7ce3fbbee513899a15ac8348d7e1d40c4ca4d6ab72314c556f003",
+  "construction/witness-tail-refinement-results.json": "f194250b6b697e5b35e9a2821bfd3df001df0d8d6fcee244a740689cd58fc803",
+  "cpp-n18-t32.log": "637ad6b95d432b2248737a5b094a80a24019324ff8d85605c5184168e1d8a1b0",
+  "early-n18-t32.log": "ff51ba96a1ca0ad5827bce2c4ab06d00dc89ec49dffaf95dcb6f7c9c2ddcaa5e",
+  "erdos295-note.tex": "22f28a69cfdf2d0c5522506c86e6e86e25190e2f1b368b34e4c8ddeb5493a36f",
+  "extension-bigint-validation.json": "9adcdcfc927c7f5b2644704208b8e5d25db59a14e91ca5b3f5453770d6e41963",
+  "extension-python-validation.json": "14cedda47a7a04fba3011369fe5b0620d1cdc13e4db8af95fb0d3ba810bb7e0f",
+  "EXTENSION.md": "b5d46f079c967004d510735b507192d546ecaef216953dcf0b46c46d27235a8a",
+  "independent-native-validation.jsonl": "d76fdc307d29ec61f2fe4484816cd335b63d979128d09459e11cd84ba912aacf",
+  "LICENSE": "660b3b57864aaed8c67415ea9f039bc2c947c8bc1c11de9a251a00951db07637",
+  "LICENSES.md": "ee37ce55412779c947e3a7c24fbc02b9d0d81dfeeeb945689565e7eb9bf11c15",
+  "NOTE.md": "7310aae1120b63bc182cfd6950afa8af5bb9e815fcc8ab79b035063561ef3125",
+  "proofs.md": "e24270e55d229850b5e2061744947c6adae9f41c72fcffc3ae7c316e96d05f59",
+  "README.md": "a9d621ed76267a6c24a5f3ef34eed990acb706edaa2cbbab64a2f8f275b29c4b",
+  "review/independent_lemma_review.py": "e42f023e2431975aa7497a5da0da72529d2ad47b52258768c952b7bb39244e69",
+  "review/independent_lemma_review_result.json": "3a832b92848377f1aeb0db8e1092a1eb2b74bcb5babd48f1cc6a4c9187b412d0",
+  "review/prior_botnet_verification.json": "63d2280544843f0b299b40615550a46553c2965ecb5ad5f47cf689a232469b77",
+  "run-native.ps1": "1f25271830257656207f45da940c8d28266cd0d3b55efa0f75f8650ca451ef1c",
+  "search-cpp.cpp": "63353f9010c84cec04662fd367befaeb089baf95f40eecbed73e27528df4790e",
+  "search-earlyterminal.py": "60b8f4e5076cc3f0034ca8aff50856aa29fa39efa446928232ea17787dd716f4",
+  "search-fasttail.py": "2d1929ddd20f24edc4753a61534d63cbb9d6a37f4e5fd0e1b9b5040b9aeeb510",
+  "search-independent.py": "9b302843486e13d8ab0ddc1f54138a3a37d1c04199e3713b28390ca6e9556604",
+  "search-native.cs": "e1c8e3976b6e5313fae0e052462b011eee9479f060994c3377d34b3859c916d4",
+  "search-records/audit_frontier.py": "4817d5ef3799c2e30c1dcc5ddaa07f79c0f0ee9b58696fe665bd389bfea11875",
+  "search-records/checkpoint-next30-60s.jsonl": "132e93623964b1c7e88acaed7206d065fb88f37c231b86ed91f1c6ca8f3fd285",
+  "search-records/checkpoint-search.cpp": "c9663e34e4e174d4bf922913fd146b9d442dcff10b43de01cd76ab8813295b3f",
+  "search-records/checkpoint-validation-next31.jsonl": "13935fcf9ffcd75fc740885a7798eb15fbae8f389cb0309754a3b52e9ed029b2",
+  "search-records/checkpoint_frontier.py": "319e94d445e1dcb0795af864bec7fc18dd42bb463085ab845ce51839df78e1dd",
+  "search-records/cpp-prefix-18-19-20-21-90s.jsonl": "7eb9eed1622ab89a731ae2e25d051592bba8ea98d604ce8d764e814e34c20408",
+  "search-records/cpp-source-used.cpp": "63353f9010c84cec04662fd367befaeb089baf95f40eecbed73e27528df4790e",
+  "search-records/frontier-manifest.json": "6b9d59862ace2aae7596b22ea341fc9427e483b560a8fc7373fd666e5458579e",
+  "search-records/frontier-next-30-joint.jsonl": "75146001fe57e49c7482d5d9183bc6488098cfccc9846ef039909d0e726d4c16",
+  "search-records/frontier-next-30-nojoint.jsonl": "06652e139b0f412a65354b4dc8e85ee8097f80450aa309e4ed927c5cad320130",
+  "search-records/frontier-next-31-joint.jsonl": "d47db5b02e883954aca89b62b52e3ee4e9e53ae31887b142b43c7747166e5c70",
+  "search-records/frontier-next-31-nojoint.jsonl": "bde8c6a11458b8a402c6218adfb5f09d84d3cde58dc0b5436e4798201ed96e3a",
+  "search-records/frontier-next-32-joint.jsonl": "5414d4396ea2df5a564227023db17f644499a28439e219234f7b5819a2f368d2",
+  "search-records/frontier-next-33-joint.jsonl": "0a3045c3ae8626de22b95acd04c1801bb2c6133e36990348f398819a69a32946",
+  "search-records/laminar-next30-90s.jsonl": "5175da27edb27fb3abc2b36247dd6789491c9242b74b73f4a4ee727e91834296",
+  "search-records/laminar-search.cpp": "8f2fe771cfefe1be85f1dd862caa2fa361c70bb1a2e2b6d93cb018f1ac94cd2f",
+  "search-records/laminar-validation.json": "9132a2349ec1f78c2d2bbcfaa93eedab2680bb72273d853bf595e94fa7bbf747",
+  "search-records/laminar30-resume-frontier.json": "f5622f31c0ca1aaed4c1bfb1995fff655f4746437cd6d5922606d448609dfc5e",
+  "search-records/local-premises-validation.json": "7144e8ea24f4f17ccab3ab3506a5e50b46c4242e300a20240d0eb706823e98dc",
+  "search-records/local-results-summary.json": "753da0231bc54843acd4c2e1e8fa8144cb21a04bba9bc3ec0eee0778506282fb",
+  "search-records/local-validation.json": "89aa0dc6ca65d320edc11378af62ac5b39b1d898bfcfc8195450484e361a7483",
+  "search-records/local_surgery.py": "41c5a5344e94fb379212e9a9bf1383090283c01b27117cfc964438e10e726273",
+  "search-records/lower-n19-t34-60s.jsonl": "76dc595697c7e767d0d033ab11c9cb0ef2c463810ae15405b24c989778f3de67",
+  "search-records/make_run_manifest.py": "9df4e68571487de70410fdc08306fa013e38121bf00ba437d3219d7d6d46fe51",
+  "search-records/prior-completed-prefixes.jsonl": "d76fdc307d29ec61f2fe4484816cd335b63d979128d09459e11cd84ba912aacf",
+  "search-records/quota-cpp-validation.json": "75a28353656f85da3eb3a0608af8c836cca9f312854242b6ce1925869883c2ce",
+  "search-records/quota-next29-240s.jsonl": "1102721babf3880028eedb010be90582810515e1975da3128b7b479f4e03f0e4",
+  "search-records/quota-next30-180s.jsonl": "bded6ffa13195050c848a88f7a5190852fb05439d909c8d63f2435971490e810",
+  "search-records/quota-probe.cpp": "b0d409c3eb678a563ceba404f11efba16eafc8f1c640e116d6f7e07a5fd83695",
+  "search-records/quota-search.cpp": "cec0a42fdfa4979f247014e06cf3ee6158cef27c8d8ef974d07b77cd9c634593",
+  "search-records/quota-validation.json": "c0919658665bdd14729e3b0b442872c270c0c99031292cf38c3fcf238d0ee5b2",
+  "search-records/quota29-resume-frontier.json": "0f8944091b34045767a51a16883e7e7b99480e3298248074260bdca20358b603",
+  "search-records/quota30-resume-frontier.json": "aeaf6ab7a42c46ec5ea26348241fc1609cd7ace8c2ad5b7b20174c19813db136",
+  "search-records/quota_tools.py": "659bc8773ea719a75a3e3e73edfb87facc89431ef56d4603e3e12a27b8c054c7",
+  "search-records/README.md": "c991230c247d097e256a59e2fb339373a4df7407093c3cbba3968f896fab23cc",
+  "search-records/resume-frontier.json": "523e01d1f57c7b75d017add1a4e12bca54c1a2d50329b578ff005a242f7264e4",
+  "search-records/run-manifest.json": "6e18341c3cb615379d8b4157206a620b62579548059f63b64c8c2f052cec60d3",
+  "search-records/surgery3-all.jsonl": "3264b29f960b07526f8122dc983ce4d1a2b6ae9b0cca967d5ecfb5657ef68da4",
+  "search-records/surgery4-all.jsonl": "86956cb74f8554701918f314ff341f91eee45cbc4d864a8ac6116e2359907147",
+  "search-records/surgery4-large2.jsonl": "85b5c3eeb0c8c9a419fdb534270a56b859253fe4efd2d111e12d15eec7ed2c7b",
+  "search-records/surgery5-all.jsonl": "f5a4340534478387f8ce483846921dd0c2ac9240001a250476647ea5222a2fb8",
+  "search-records/surgery5-large2.jsonl": "ef40f0916bcc07ead4ce65812c58e2dbb22f45e37a3cf9c489082edfa840fe4e",
+  "search-records/surgery6-large2-resume.jsonl": "57d66a3fc2810e22a32a28df2a348276b6f00d2a888111837c1814d00140fde4",
+  "search-records/surgery6-large2.jsonl": "4d3bf619aa5d0a1cd98543eb4a5c298e50d4804470671c1eacc2f4a73c1490b9",
+  "search-records/validate_laminar.py": "0039c5037fb9194c5c2c167aeb4ed631fe12896bdd550fac326d4b6e76e48c60",
+  "search-records/validate_local.py": "004df673c6c9d7d051f1f8bf625d334e4c75828b67c0a01892ef62266d4b19b9",
+  "search-records/validate_quota.py": "9a50873e6d5375722615974e5af1286c3e275d6f4dc9e9027c7524c829ff4edb",
+  "search-records/validate_quota_probe.py": "918ac8e6ea32319b95f389548f4dc2dae074d9bbab8ee97363e2787c0857a678",
+  "search-records/verify_local_premises.py": "783beae28fee83becbd4ff800b3cccbde01e68ed40015879d847f3565b4f3310",
+  "search-runner.py": "c78ccbcaf312e34d0f995c0f804c578a0ad1b0dce2ca5ffa941c405e5b2ffba2",
+  "search-strong.py": "7e5e1a9d2ddd1331ce855a6a5b5f6fa262afed40d4829cc8ee3353d6c116df43",
+  "search-terminalbound.py": "ce66f09bbb79d3c22595fc822bd76746538fb41ca9bd0d288421f78c9b2a9762",
+  "SEARCH_STATUS.md": "4ea7f38115924dbff1a281df6a8b0cfa6883647d4837de4813abc00ed1061795",
+  "structure/atom-test-results.json": "3959ae15927ffacae2b9af098d551b2abfdfbe1a2933126cacd23a1d2e1aead3",
+  "structure/atom_tools.py": "7a24aa8977baabfde2babb32e481595af6cecaa15f1f8d543791c59635c19f95",
+  "structure/dual-example.json": "ea61fbe2267e78b4ae583aee1878dfdc38daa14df2e800fde632e94b0e92e885",
+  "structure/dual-validation.json": "b5dd3286464bc67bba421b36a6ff34d5dfd4f0e7b1af4d975a4e7a4173747a96",
+  "structure/dual_tools.py": "8cc086ae944fde3ba450c86549f0a1f525800ef4c527085f8c874839f302fede",
+  "structure/general-theorem-validation.json": "85871ec12d99dccc2d229b51505552e2ba4a72431addad2e3c5a0f3e33e43c0a",
+  "structure/general_theorem_oracle.py": "28b755d1b1445656bd746e4675a087d9885e8994a29a405021b90667cc5603c1",
+  "structure/general_theorem_oracle_result.json": "85871ec12d99dccc2d229b51505552e2ba4a72431addad2e3c5a0f3e33e43c0a",
+  "structure/PRIOR_ART.md": "8f65a952ee5328e92e27fc214c9c5a109ea1fd96ddc54ff3c7ce8b3608a1034c",
+  "structure/quota_tools.py": "659bc8773ea719a75a3e3e73edfb87facc89431ef56d4603e3e12a27b8c054c7",
+  "structure/STRUCTURAL_THEOREMS.md": "0c5cb39c8cc970d396cb7240058ba369ee910dc1a495362faae5eaaeb4bfd377",
+  "structure/test_atom.py": "3d66a637f6b396025fe72524d43bb1c5d10220d87db7b28a04f343f39726a52f",
+  "structure/test_dual.py": "de6d4c1f8d7b737c35b9a2af2c323219d24698da6149ebce7f56f9ab235b79cc",
+  "STRUCTURE.md": "ef72d868f5bf7d62930cc9be5c502c671be3da6b22c193ac04a163120a12797e",
+  "verify-certificate-result.json": "d0bff36236f74690fb75684ac00aa843dec5beb4cf57d8e8aa5b4693fa7dda69",
+  "verify-certificate.py": "2313ee84b4d3842ffecdf59a8b3a189c949641ae3aa8db60a2c4ddd2c7a2b1cf",
+  "verify-extension-bigint.mjs": "c8b661418896aab8575969163b0e11e262b0c1396c29b8ec58dfccb3db7c058d",
+  "verify-extension.py": "baf15434f1d0e9b228c497dd13a20defa439c4aa76f156efbfbb7dca73d7562a",
+  "verify-fasttail.json": "0ce3de797105a8e32902c3f531157df084df52c76613001ff98985c696e6b564",
+  "verify-fasttail.py": "22a4e739dabb86926a90b9809ecb6879a4cc12aa7d87dd9128e6c0326e73556b",
+  "\uc5f0\uad6c\uc124\uba85.md": "5ae5d379af4ddda1d7d10d8ec20df962e4831dd9c15111459f21a2e39c9ef430"
 }

@@ -1,0 +1,3 @@
+{"event": "start", "args": {"remove": 4, "required_large": 2, "seconds": 120.0, "per_case": 1.0, "start": 0, "output": "surgery4-large2.jsonl"}, "scope": "local subset replacement; no denominator cap"}
+{"event": "case", "index": 0, "removed": [18, 19, 14143068, 10457416992], "status": "exhausted", "nodes": 2, "elapsed_seconds": 0.0}
+{"event": "result", "status": "family_exhausted", "elapsed_seconds": 0.32800000000861473, "cases_exhausted": 496, "cases_timed_out": 0, "next_index": 496, "nodes": 5353, "quadratic_two_prunes": 4857, "two_candidates": 0, "witness": null}

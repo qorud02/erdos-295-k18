@@ -7,7 +7,7 @@ DOI: https://doi.org/10.5281/zenodo.23297810
 
 Let \(k(N)\) be the least integer \(k\) for which distinct integers
 \(N\le d_1<\cdots<d_k\) satisfy \(\sum_{i=1}^k 1/d_i=1\).
-We give an explicit certificate for \(k(18)\le34\). Together with the previously reported computational lower bound, independently reproduced in the accompanying code, this gives
+We give an explicit certificate for \(k(18)\le34\). Together with the previously reported computational lower bound, reproduced using the same exact recurrence with additional pruning in the accompanying code, this gives
 
 \[
 33\le k(18)\le34.
@@ -32,7 +32,7 @@ We give an explicit certificate for \(k(18)\le34\). Together with the previously
 
 Dividing by \(L\) proves the identity. The order, cardinality, and minimum of the displayed set give \(k(18)\le34\). ∎
 
-The construction can also be obtained from the 35-term certificate published by Patrick White with Claude on 11 August 2026 [1]. Replace five of its terms using
+The construction was found by replacing five terms of the 35-term certificate published by Patrick White with Claude on 11 August 2026 [1] with four, using
 
 \[
 \frac1{42}+\frac1{640}+\frac1{337280}
@@ -54,7 +54,7 @@ At a positive reduced remainder \(a/b\), with \(t\ge2\) terms left and minimum a
 \max(D_0,\lfloor b/a\rfloor+1)\le x\le\lfloor tb/a\rfloor.
 \]
 
-Exact harmonic upper bounds and prime-power conditions prune impossible branches. At two terms, the forced final denominator is \(y=bx/(ax-b)\). Its integrality is checked exactly, without an imposed denominator cap. The accompanying [proof details](proofs.md), [Python log](early-n18-t32.log), [C# records](independent-native-validation.jsonl), and [C++ log](cpp-n18-t32.log) describe the completed exclusion.
+Exact harmonic upper bounds and prime-power conditions prune impossible branches. At two terms, the forced final denominator is \(y=bx/(ax-b)\). The implementation checks its integrality exactly when a candidate reaches this step, without an imposed denominator cap. In the completed 32-term run, every two-term state was rejected by the quadratic bound before candidate enumeration; the logged number of terminal candidates tested is zero. The accompanying [proof details](proofs.md), [Python log](early-n18-t32.log), [C# records](independent-native-validation.jsonl), and [C++ log](cpp-n18-t32.log) describe the completed exclusion.
 
 Excluding exactly 32 terms also excludes every shorter expansion: replace its largest denominator \(d\) by \(d+1\) and \(d(d+1)\), using
 \(1/d=1/(d+1)+1/[d(d+1)]\), and repeat until there are 32 terms. The new denominators exceed every retained denominator. Thus \(k(18)\ge33\).

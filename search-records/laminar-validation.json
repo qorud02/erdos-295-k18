@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "seed": 2953327,
+  "arbitrary_nested_group_exhaustive_oracles": 300,
+  "cpp_vs_generic_api_exact_bounds": 25578,
+  "crossing_groups_rejected": true,
+  "core_fixed_certificate_group_size": 32,
+  "core_fixed_certificate_quota": 27
+}

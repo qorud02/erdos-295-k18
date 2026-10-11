@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "random_cases": 240,
+  "enumerated_subsets": 86503,
+  "feasible_subsets": 70825,
+  "invalid_inputs_rejected": 6,
+  "crossing_example_optimum": "23/132"
+}

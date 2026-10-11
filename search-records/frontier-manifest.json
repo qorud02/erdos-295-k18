@@ -1,0 +1,1016 @@
+{
+  "scope": "Conditional on mathematical correctness of preserved exact search engines and proofs; audit verifies logical prefix coverage and exact harmonic bounds.",
+  "previous_log": "prior-completed-prefixes.jsonl",
+  "previous_log_sha256": "d76fdc307d29ec61f2fe4484816cd335b63d979128d09459e11cd84ba912aacf",
+  "forced_initial_denominators": [
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+  ],
+  "steps": [
+    {
+      "prefix": [],
+      "required_next_if_previous_steps_hold": 18,
+      "harmonic_next_upper": 19,
+      "excluded_next_values": [
+        19
+      ],
+      "unresolved_next_values": [],
+      "boundary_residual": "1",
+      "harmonic_at_upper_plus_one": "236076698343770516033/238388038788153592800",
+      "completed_run_records": [
+        {
+          "event": "result",
+          "engine": "search-native.cs before harmonic-reuse optimization",
+          "status": "exhausted",
+          "minimum": 19,
+          "terms": 33,
+          "prefix": [],
+          "max_denominator": null,
+          "denominators": null,
+          "elapsed_seconds": 0.124,
+          "nodes": 1103,
+          "harmonic_prunes": 0,
+          "prime_prunes": 432,
+          "memo_hits": 0,
+          "quadratic_two_prunes": 574,
+          "two_candidates": 0,
+          "failed_states": 97
+        }
+      ]
+    },
+    {
+      "prefix": [
+        18
+      ],
+      "required_next_if_previous_steps_hold": 19,
+      "harmonic_next_upper": 20,
+      "excluded_next_values": [
+        20
+      ],
+      "unresolved_next_values": [],
+      "boundary_residual": "17/18",
+      "harmonic_at_upper_plus_one": "224157296404362836393/238388038788153592800",
+      "completed_run_records": [
+        {
+          "event": "result",
+          "engine": "search-native.cs with harmonic-reuse optimization",
+          "status": "exhausted",
+          "minimum": 18,
+          "terms": 33,
+          "prefix": [
+            18,
+            20
+          ],
+          "max_denominator": null,
+          "denominators": null,
+          "elapsed_seconds": 0.563,
+          "nodes": 6250,
+          "harmonic_prunes": 0,
+          "prime_prunes": 1941,
+          "memo_hits": 0,
+          "quadratic_two_prunes": 3939,
+          "two_candidates": 0,
+          "failed_states": 370
+        }
+      ]
+    },
+    {
+      "prefix": [
+        18,
+        19
+      ],
+      "required_next_if_previous_steps_hold": 20,
+      "harmonic_next_upper": 22,
+      "excluded_next_values": [
+        21,
+        22
+      ],
+      "unresolved_next_values": [],
+      "boundary_residual": "305/342",
+      "harmonic_at_upper_plus_one": "10942780288483015874029/12634566055772140418400",
+      "completed_run_records": [
+        {
+          "event": "result",
+          "engine": "search-native.cs with harmonic-reuse optimization",
+          "status": "exhausted",
+          "minimum": 18,
+          "terms": 33,
+          "prefix": [
+            18,
+            19,
+            21
+          ],
+          "max_denominator": null,
+          "denominators": null,
+          "elapsed_seconds": 1.434,
+          "nodes": 24640,
+          "harmonic_prunes": 0,
+          "prime_prunes": 6402,
+          "memo_hits": 0,
+          "quadratic_two_prunes": 17041,
+          "two_candidates": 0,
+          "failed_states": 1197
+        },
+        {
+          "event": "result",
+          "engine": "search-native.cs with harmonic-reuse optimization",
+          "status": "exhausted",
+          "minimum": 18,
+          "terms": 33,
+          "prefix": [
+            18,
+            19,
+            22
+          ],
+          "max_denominator": null,
+          "denominators": null,
+          "elapsed_seconds": 0.067,
+          "nodes": 1,
+          "harmonic_prunes": 0,
+          "prime_prunes": 1,
+          "memo_hits": 0,
+          "quadratic_two_prunes": 0,
+          "two_candidates": 0,
+          "failed_states": 0
+        }
+      ]
+    },
+    {
+      "prefix": [
+        18,
+        19,
+        20
+      ],
+      "required_next_if_previous_steps_hold": 21,
+      "harmonic_next_upper": 23,
+      "excluded_next_values": [
+        22,
+        23
+      ],
+      "unresolved_next_values": [],
+      "boundary_residual": "2879/3420",
+      "harmonic_at_upper_plus_one": "10393451329536401073229/12634566055772140418400",
+      "completed_run_records": [
+        {
+          "event": "result",
+          "engine": "search-native.cs with harmonic-reuse and cheap terminal guard",
+          "status": "exhausted",
+          "minimum": 18,
+          "terms": 33,
+          "prefix": [
+            18,
+            19,
+            20,
+            22
+          ],
+          "max_denominator": null,
+          "denominators": null,
+          "elapsed_seconds": 13.888,
+          "nodes": 76431,
+          "harmonic_prunes": 0,
+          "prime_prunes": 16920,
+          "memo_hits": 0,
+          "quadratic_two_prunes": 56160,
+          "two_candidates": 0,
+          "failed_states": 3351
+        },
+        {
+          "event": "result",
+          "engine": "search-native.cs with harmonic-reuse optimization",
+          "status": "exhausted",
+          "minimum": 18,
+          "terms": 33,
+          "prefix": [
+            18,
+            19,
+            20,
+            23
+          ],
+          "max_denominator": null,
+          "denominators": null,
+          "elapsed_seconds": 0.001,
+          "nodes": 3,
+          "harmonic_prunes": 0,
+          "prime_prunes": 1,
+          "memo_hits": 0,
+          "quadratic_two_prunes": 0,
+          "two_candidates": 0,
+          "failed_states": 2
+        }
+      ]
+    },
+    {
+      "prefix": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "required_next_if_previous_steps_hold": 22,
+      "harmonic_next_upper": 24,
+      "excluded_next_values": [
+        23,
+        24
+      ],
+      "unresolved_next_values": [],
+      "boundary_residual": "19013/23940",
+      "harmonic_at_upper_plus_one": "9867011077212561889129/12634566055772140418400",
+      "completed_run_records": [
+        {
+          "event": "result",
+          "engine": "search-native.cs with harmonic-reuse, cheap terminal guard, small-gcd subtraction",
+          "status": "exhausted",
+          "minimum": 18,
+          "terms": 33,
+          "prefix": [
+            18,
+            19,
+            20,
+            21,
+            23
+          ],
+          "max_denominator": null,
+          "denominators": null,
+          "elapsed_seconds": 17.377,
+          "nodes": 200448,
+          "harmonic_prunes": 0,
+          "prime_prunes": 39710,
+          "memo_hits": 0,
+          "quadratic_two_prunes": 152534,
+          "two_candidates": 0,
+          "failed_states": 8204
+        },
+        {
+          "event": "result",
+          "engine": "search-native.cs with harmonic-reuse, cheap terminal guard, small-gcd subtraction",
+          "status": "exhausted",
+          "minimum": 18,
+          "terms": 33,
+          "prefix": [
+            18,
+            19,
+            20,
+            21,
+            24
+          ],
+          "max_denominator": null,
+          "denominators": null,
+          "elapsed_seconds": 0.021,
+          "nodes": 6,
+          "harmonic_prunes": 0,
+          "prime_prunes": 1,
+          "memo_hits": 0,
+          "quadratic_two_prunes": 0,
+          "two_candidates": 0,
+          "failed_states": 5
+        }
+      ]
+    },
+    {
+      "prefix": [
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "required_next_if_previous_steps_hold": 23,
+      "harmonic_next_upper": 25,
+      "excluded_next_values": [
+        24,
+        25
+      ],
+      "unresolved_next_values": [],
+      "boundary_residual": "197173/263340",
+      "harmonic_at_upper_plus_one": "9361628434981676272393/12634566055772140418400",
+      "completed_run_records": [
+        {
+          "event": "result",
+          "engine": "search-native.cs with harmonic-reuse, cheap terminal guard, small-gcd subtraction",
+          "status": "exhausted",
+          "minimum": 18,
+          "terms": 33,
+          "prefix": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            24
+          ],
+          "max_denominator": null,
+          "denominators": null,
+          "elapsed_seconds": 30.565,
+          "nodes": 461859,
+          "harmonic_prunes": 0,
+          "prime_prunes": 83759,
+          "memo_hits": 0,
+          "quadratic_two_prunes": 360037,
+          "two_candidates": 0,
+          "failed_states": 18063
+        },
+        {
+          "event": "result",
+          "engine": "search-native.cs with harmonic-reuse, cheap terminal guard, small-gcd subtraction",
+          "status": "exhausted",
+          "minimum": 18,
+          "terms": 33,
+          "prefix": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            25
+          ],
+          "max_denominator": null,
+          "denominators": null,
+          "elapsed_seconds": 0.224,
+          "nodes": 19,
+          "harmonic_prunes": 0,
+          "prime_prunes": 7,
+          "memo_hits": 0,
+          "quadratic_two_prunes": 0,
+          "two_candidates": 0,
+          "failed_states": 12
+        }
+      ]
+    },
+    {
+      "prefix": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "required_next_if_previous_steps_hold": 24,
+      "harmonic_next_upper": 26,
+      "excluded_next_values": [
+        25,
+        26
+      ],
+      "unresolved_next_values": [],
+      "boundary_residual": "4271639/6056820",
+      "harmonic_at_upper_plus_one": "115383886626875721331909/164249358725037825439200",
+      "completed_run_records": [
+        {
+          "event": "result",
+          "engine": "search-native.cs with harmonic-reuse, cheap terminal guard, small-gcd subtraction",
+          "status": "exhausted",
+          "minimum": 18,
+          "terms": 33,
+          "prefix": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            25
+          ],
+          "max_denominator": null,
+          "denominators": null,
+          "elapsed_seconds": 110.024,
+          "nodes": 959859,
+          "harmonic_prunes": 0,
+          "prime_prunes": 161778,
+          "memo_hits": 0,
+          "quadratic_two_prunes": 761838,
+          "two_candidates": 0,
+          "failed_states": 36243
+        },
+        {
+          "event": "result",
+          "engine": "search-native.cs with harmonic-reuse, cheap terminal guard, small-gcd subtraction",
+          "status": "exhausted",
+          "minimum": 18,
+          "terms": 33,
+          "prefix": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            26
+          ],
+          "max_denominator": null,
+          "denominators": null,
+          "elapsed_seconds": 0.564,
+          "nodes": 35,
+          "harmonic_prunes": 0,
+          "prime_prunes": 20,
+          "memo_hits": 0,
+          "quadratic_two_prunes": 0,
+          "two_candidates": 0,
+          "failed_states": 15
+        }
+      ]
+    },
+    {
+      "prefix": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "required_next_if_previous_steps_hold": 25,
+      "harmonic_next_upper": 28,
+      "excluded_next_values": [
+        26,
+        27,
+        28
+      ],
+      "unresolved_next_values": [],
+      "boundary_residual": "8038543/12113640",
+      "harmonic_at_upper_plus_one": "106476183309777109105709/164249358725037825439200",
+      "completed_run_records": [
+        {
+          "event": "result",
+          "engine": "search-native.cs with harmonic-reuse, cheap terminal guard, small-gcd subtraction",
+          "status": "exhausted",
+          "minimum": 18,
+          "terms": 33,
+          "prefix": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            26
+          ],
+          "max_denominator": null,
+          "denominators": null,
+          "elapsed_seconds": 103.128,
+          "nodes": 1834394,
+          "harmonic_prunes": 0,
+          "prime_prunes": 290277,
+          "memo_hits": 15,
+          "quadratic_two_prunes": 1476804,
+          "two_candidates": 0,
+          "failed_states": 67298
+        },
+        {
+          "event": "result",
+          "engine": "search-native.cs with harmonic-reuse, cheap terminal guard, small-gcd subtraction",
+          "status": "exhausted",
+          "minimum": 18,
+          "terms": 33,
+          "prefix": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            27
+          ],
+          "max_denominator": null,
+          "denominators": null,
+          "elapsed_seconds": 0.1,
+          "nodes": 171,
+          "harmonic_prunes": 0,
+          "prime_prunes": 91,
+          "memo_hits": 0,
+          "quadratic_two_prunes": 52,
+          "two_candidates": 0,
+          "failed_states": 28
+        },
+        {
+          "event": "result",
+          "engine": "search-native.cs with harmonic-reuse, cheap terminal guard, small-gcd subtraction",
+          "status": "exhausted",
+          "minimum": 18,
+          "terms": 33,
+          "prefix": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            28
+          ],
+          "max_denominator": null,
+          "denominators": null,
+          "elapsed_seconds": 0.076,
+          "nodes": 1,
+          "harmonic_prunes": 0,
+          "prime_prunes": 1,
+          "memo_hits": 0,
+          "quadratic_two_prunes": 0,
+          "two_candidates": 0,
+          "failed_states": 0
+        }
+      ]
+    },
+    {
+      "prefix": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "required_next_if_previous_steps_hold": 26,
+      "harmonic_next_upper": 29,
+      "excluded_next_values": [
+        27,
+        28,
+        29
+      ],
+      "unresolved_next_values": [],
+      "boundary_residual": "37769987/60568200",
+      "harmonic_at_upper_plus_one": "3476290079974433220721/5663770990518545704800",
+      "completed_run_records": [
+        {
+          "event": "result",
+          "engine": "search-native.cs with harmonic-reuse, cheap terminal guard, small-gcd subtraction",
+          "status": "exhausted",
+          "minimum": 18,
+          "terms": 33,
+          "prefix": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            27
+          ],
+          "max_denominator": null,
+          "denominators": null,
+          "elapsed_seconds": 78.652,
+          "nodes": 3269174,
+          "harmonic_prunes": 0,
+          "prime_prunes": 488464,
+          "memo_hits": 96,
+          "quadratic_two_prunes": 2663766,
+          "two_candidates": 0,
+          "failed_states": 116848
+        },
+        {
+          "event": "result",
+          "engine": "search-native.cs with harmonic-reuse, cheap terminal guard, small-gcd subtraction",
+          "status": "exhausted",
+          "minimum": 18,
+          "terms": 33,
+          "prefix": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            28
+          ],
+          "max_denominator": null,
+          "denominators": null,
+          "elapsed_seconds": 0.135,
+          "nodes": 1060,
+          "harmonic_prunes": 0,
+          "prime_prunes": 422,
+          "memo_hits": 0,
+          "quadratic_two_prunes": 554,
+          "two_candidates": 0,
+          "failed_states": 84
+        },
+        {
+          "event": "result",
+          "engine": "search-native.cs with harmonic-reuse, cheap terminal guard, small-gcd subtraction",
+          "status": "exhausted",
+          "minimum": 18,
+          "terms": 33,
+          "prefix": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            29
+          ],
+          "max_denominator": null,
+          "denominators": null,
+          "elapsed_seconds": 0.062,
+          "nodes": 1,
+          "harmonic_prunes": 0,
+          "prime_prunes": 1,
+          "memo_hits": 0,
+          "quadratic_two_prunes": 0,
+          "two_candidates": 0,
+          "failed_states": 0
+        }
+      ]
+    },
+    {
+      "prefix": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "required_next_if_previous_steps_hold": 27,
+      "harmonic_next_upper": 30,
+      "excluded_next_values": [
+        28,
+        29,
+        30
+      ],
+      "unresolved_next_values": [],
+      "boundary_residual": "460725731/787386600",
+      "harmonic_at_upper_plus_one": "3287497713623815030561/5663770990518545704800",
+      "completed_run_records": [
+        {
+          "event": "result",
+          "engine": "search-native.cs with harmonic-reuse, cheap terminal guard, small-gcd subtraction",
+          "status": "exhausted",
+          "minimum": 18,
+          "terms": 33,
+          "prefix": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            28
+          ],
+          "max_denominator": null,
+          "denominators": null,
+          "elapsed_seconds": 142.656,
+          "nodes": 5499130,
+          "harmonic_prunes": 0,
+          "prime_prunes": 780613,
+          "memo_hits": 332,
+          "quadratic_two_prunes": 4526065,
+          "two_candidates": 0,
+          "failed_states": 192120
+        },
+        {
+          "event": "result",
+          "engine": "search-native.cs with harmonic-reuse, cheap terminal guard, small-gcd subtraction",
+          "status": "exhausted",
+          "minimum": 18,
+          "terms": 33,
+          "prefix": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            29
+          ],
+          "max_denominator": null,
+          "denominators": null,
+          "elapsed_seconds": 0.266,
+          "nodes": 5707,
+          "harmonic_prunes": 0,
+          "prime_prunes": 1828,
+          "memo_hits": 0,
+          "quadratic_two_prunes": 3555,
+          "two_candidates": 0,
+          "failed_states": 324
+        },
+        {
+          "event": "result",
+          "engine": "search-native.cs with harmonic-reuse, cheap terminal guard, small-gcd subtraction",
+          "status": "exhausted",
+          "minimum": 18,
+          "terms": 33,
+          "prefix": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            30
+          ],
+          "max_denominator": null,
+          "denominators": null,
+          "elapsed_seconds": 0.099,
+          "nodes": 2,
+          "harmonic_prunes": 0,
+          "prime_prunes": 1,
+          "memo_hits": 0,
+          "quadratic_two_prunes": 0,
+          "two_candidates": 0,
+          "failed_states": 1
+        }
+      ]
+    },
+    {
+      "prefix": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "required_next_if_previous_steps_hold": 28,
+      "harmonic_next_upper": 32,
+      "excluded_next_values": [
+        29,
+        30,
+        31,
+        32
+      ],
+      "unresolved_next_values": [],
+      "boundary_residual": "1294689793/2362159800",
+      "harmonic_at_upper_plus_one": "48883552169781413933/91351145008363640400",
+      "completed_run_records": [
+        {
+          "event": "result",
+          "engine": "search-native.cs with harmonic-reuse, cheap terminal guard, small-gcd subtraction",
+          "status": "exhausted",
+          "minimum": 18,
+          "terms": 33,
+          "prefix": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            29
+          ],
+          "max_denominator": null,
+          "denominators": null,
+          "elapsed_seconds": 225.661,
+          "nodes": 8792839,
+          "harmonic_prunes": 0,
+          "prime_prunes": 1188598,
+          "memo_hits": 887,
+          "quadratic_two_prunes": 7302592,
+          "two_candidates": 0,
+          "failed_states": 200000
+        },
+        {
+          "event": "result",
+          "engine": "search-native.cs with harmonic-reuse, cheap terminal guard, small-gcd subtraction",
+          "status": "exhausted",
+          "minimum": 18,
+          "terms": 33,
+          "prefix": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            30
+          ],
+          "max_denominator": null,
+          "denominators": null,
+          "elapsed_seconds": 1.407,
+          "nodes": 22715,
+          "harmonic_prunes": 0,
+          "prime_prunes": 5881,
+          "memo_hits": 0,
+          "quadratic_two_prunes": 15771,
+          "two_candidates": 0,
+          "failed_states": 1063
+        },
+        {
+          "event": "result",
+          "engine": "search-native.cs with harmonic-reuse, cheap terminal guard, small-gcd subtraction",
+          "status": "exhausted",
+          "minimum": 18,
+          "terms": 33,
+          "prefix": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            31
+          ],
+          "max_denominator": null,
+          "denominators": null,
+          "elapsed_seconds": 0.05,
+          "nodes": 13,
+          "harmonic_prunes": 0,
+          "prime_prunes": 7,
+          "memo_hits": 0,
+          "quadratic_two_prunes": 0,
+          "two_candidates": 0,
+          "failed_states": 6
+        },
+        {
+          "event": "result",
+          "engine": "search-native.cs with harmonic-reuse, cheap terminal guard, small-gcd subtraction",
+          "status": "exhausted",
+          "minimum": 18,
+          "terms": 33,
+          "prefix": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            32
+          ],
+          "max_denominator": null,
+          "denominators": null,
+          "elapsed_seconds": 0.148,
+          "nodes": 1,
+          "harmonic_prunes": 0,
+          "prime_prunes": 1,
+          "memo_hits": 0,
+          "quadratic_two_prunes": 0,
+          "two_candidates": 0,
+          "failed_states": 0
+        }
+      ]
+    },
+    {
+      "prefix": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "required_next_if_previous_steps_hold": 29,
+      "harmonic_next_upper": 33,
+      "excluded_next_values": [
+        31,
+        32,
+        33
+      ],
+      "unresolved_next_values": [
+        30
+      ],
+      "boundary_residual": "172903849/337451400",
+      "harmonic_at_upper_plus_one": "46115335654376455133/91351145008363640400",
+      "completed_run_records": [
+        {
+          "event": "result",
+          "status": "exhausted",
+          "minimum": 18,
+          "terms": 33,
+          "prefix": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            31
+          ],
+          "max_denominator": null,
+          "denominators": null,
+          "elapsed_seconds": 3.572794,
+          "nodes": 51877,
+          "prime_prunes": 12854,
+          "joint_prunes": 633,
+          "harmonic_prunes": 0,
+          "memo_hits": 0,
+          "quadratic_two_prunes": 36875,
+          "two_candidates": 0,
+          "failed_states": 2148
+        },
+        {
+          "event": "result",
+          "status": "exhausted",
+          "minimum": 18,
+          "terms": 33,
+          "prefix": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            32
+          ],
+          "max_denominator": null,
+          "denominators": null,
+          "elapsed_seconds": 0.065831,
+          "nodes": 31,
+          "prime_prunes": 19,
+          "joint_prunes": 0,
+          "harmonic_prunes": 0,
+          "memo_hits": 0,
+          "quadratic_two_prunes": 0,
+          "two_candidates": 0,
+          "failed_states": 12
+        },
+        {
+          "event": "result",
+          "status": "exhausted",
+          "minimum": 18,
+          "terms": 33,
+          "prefix": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            33
+          ],
+          "max_denominator": null,
+          "denominators": null,
+          "elapsed_seconds": 0.008875,
+          "nodes": 1,
+          "prime_prunes": 1,
+          "joint_prunes": 0,
+          "harmonic_prunes": 0,
+          "memo_hits": 0,
+          "quadratic_two_prunes": 0,
+          "two_candidates": 0,
+          "failed_states": 0
+        }
+      ]
+    }
+  ],
+  "exact_minimum_resolved": false
+}

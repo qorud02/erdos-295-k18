@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "exchange_equivalence_cases": 5120,
+  "fixed_core_exchange_cases": 512,
+  "single_quota_exact_cases": 8704,
+  "dual_random_cases": 160,
+  "dual_subsets_enumerated": 11433,
+  "dual_feasible_subsets": 9765,
+  "atom_exact_cases": 160,
+  "crossing_quota_optimum": "23/132",
+  "edge_counterexamples": [
+    "forbidding_removed_term_reuse",
+    "negative_multiplier"
+  ]
+}

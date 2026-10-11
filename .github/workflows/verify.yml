@@ -13,6 +13,13 @@ jobs:
           python-version: '3.12'
       - name: Verify the 34-term certificate
         run: python verify-certificate.py
+      - name: Verify the extension certificates and negative controls
+        run: python verify-extension.py
+      - name: Check structural theorem finite oracles
+        run: |
+          python structure/test_dual.py
+          python structure/general_theorem_oracle.py
+          python structure/test_atom.py
       - name: Reproduce the uncapped 32-term exclusion
         run: |
           python search-runner.py --engine search-earlyterminal.py --minimum 18 --terms 32 --seconds 600 --output ci-lower-bound.jsonl

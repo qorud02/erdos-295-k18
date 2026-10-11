@@ -1,0 +1,62 @@
+{
+  "minimum": 10,
+  "terms": 2,
+  "references": [
+    [
+      10,
+      11,
+      13
+    ],
+    [
+      10,
+      12,
+      13
+    ]
+  ],
+  "quotas": [
+    1,
+    1
+  ],
+  "multipliers": [
+    "3/154",
+    "1/84"
+  ],
+  "forbidden": [],
+  "outside_candidates": [
+    14,
+    15
+  ],
+  "ranked_pool": [
+    {
+      "denominator": "11",
+      "adjusted_weight": "1/14"
+    },
+    {
+      "denominator": "12",
+      "adjusted_weight": "1/14"
+    },
+    {
+      "denominator": "14",
+      "adjusted_weight": "1/14"
+    },
+    {
+      "denominator": "10",
+      "adjusted_weight": "317/4620"
+    },
+    {
+      "denominator": "15",
+      "adjusted_weight": "1/15"
+    },
+    {
+      "denominator": "13",
+      "adjusted_weight": "547/12012"
+    }
+  ],
+  "selected": [
+    "11",
+    "12"
+  ],
+  "penalty": "29/924",
+  "top_sum": "1/7",
+  "bound": "23/132"
+}

@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "seed": 2953328,
+  "finite_exhaustive_quota_oracles": 3318,
+  "genuine_subset_upper_bound_controls": 10000,
+  "arbitrary_reference_subset_oracles_and_next_upper_checks": 200,
+  "method": "For each lower bound, enumerate every subset of the first six BASE and first six non-BASE denominators, using exact integer LCM weights. Compare every t<=6 and quota<=6 to the independently implemented greedy bound."
+}
