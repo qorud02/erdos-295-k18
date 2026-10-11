@@ -2,6 +2,8 @@
 
 **Kyunghan Bae · 11 October 2026**
 
+DOI: https://doi.org/10.5281/zenodo.23297810
+
 An explicit set of 34 distinct integer denominators, all at least 18, has reciprocal sum exactly one. This proves **k(18) ≤ 34**. Combined with the previously reported and reproduced computational lower bound, **33 ≤ k(18) ≤ 34**.
 
 Read the [research note](NOTE.md) for the construction, integer proof, five-to-four replacement, and references.

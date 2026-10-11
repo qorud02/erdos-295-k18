@@ -3,6 +3,8 @@
 **Kyunghan Bae**  
 11 October 2026
 
+DOI: https://doi.org/10.5281/zenodo.23297810
+
 Let \(k(N)\) be the least integer \(k\) for which distinct integers
 \(N\le d_1<\cdots<d_k\) satisfy \(\sum_{i=1}^k 1/d_i=1\).
 We give an explicit certificate for \(k(18)\le34\). Together with the previously reported computational lower bound, independently reproduced in the accompanying code, this gives
