@@ -3,3 +3,5 @@
 *.jsonl -text
 *.log -text
 search-records/*.cpp -text
+
+benchmark/** -text

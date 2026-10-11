@@ -1,0 +1,51 @@
+name: Original Sage and matched quota pilot
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install GMP compiler dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y g++ libgmp-dev
+      - name: Compile the matched engine and independent probe
+        working-directory: benchmark
+        run: |
+          g++ --version > compiler-version.txt
+          g++ -O2 -std=c++17 matched-search.cpp -lgmp -o matched-search
+          g++ -O2 -std=c++17 probe_matched.cpp -lgmp -o probe-matched
+          sha256sum matched-search.cpp matched-search > compiled-sha256.txt
+      - name: Validate 972 independent residual oracles
+        working-directory: benchmark
+        run: python3 validate_matched.py --probe ./probe-matched --engine ./matched-search --output matched-oracle-validation.json
+      - name: Run the fixed 53-case matched pilot
+        run: python3 benchmark/cloud_pilot.py run --manifest benchmark/inputs/manifest.json --binary benchmark/matched-search --out-dir benchmark/matched-cloud-results --seconds 5 --control-seconds 30
+      - name: Run the original pinned Sage implementation
+        env:
+          SAGE_IMAGE: sagemath/sagemath:10.8@sha256:e2e4747b0e1ea8753a9cb5a399314a8b2c25fcefaf69ba85b22ee075829d09ea
+        run: |
+          CPU="$(python3 -c 'import os; print(min(os.sched_getaffinity(0)))')"
+          mkdir -p benchmark/upstream-cloud-results
+          chmod a+rwx benchmark/upstream-cloud-results
+          docker pull "$SAGE_IMAGE"
+          docker image inspect "$SAGE_IMAGE" > benchmark/sage-image-inspect.json
+          docker run --rm --init --cpus=1 --cpuset-cpus="$CPU" -e SAGE_NUM_THREADS=1 -e OMP_NUM_THREADS=1 -e OPENBLAS_NUM_THREADS=1 -e MKL_NUM_THREADS=1 -v "$GITHUB_WORKSPACE:/work:rw" -w /work "$SAGE_IMAGE" sage -python benchmark/run_upstream.sage --manifest benchmark/inputs/manifest.json --out-dir benchmark/upstream-cloud-results --suite pilot --seconds 5 --control-seconds 30
+      - name: Compare completed answers on the identical inputs
+        run: python3 benchmark/cloud_pilot.py compare --cpp-dir benchmark/matched-cloud-results --sage-dir benchmark/upstream-cloud-results --output benchmark/cloud-comparison.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: original-sage-matched-pilot
+          path: |
+            benchmark/matched-cloud-results/
+            benchmark/upstream-cloud-results/
+            benchmark/cloud-comparison.json
+            benchmark/matched-oracle-validation.json
+            benchmark/compiler-version.txt
+            benchmark/compiled-sha256.txt
+            benchmark/sage-image-inspect.json
