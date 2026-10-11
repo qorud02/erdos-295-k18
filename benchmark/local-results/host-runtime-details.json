@@ -1,0 +1,14 @@
+{
+  "recorded_utc": "2026-10-11T21:35:19.852Z",
+  "platform": "win32",
+  "release": "10.0.26300",
+  "cpu_models": [
+    "13th Gen Intel(R) Core(TM) i5-1334U"
+  ],
+  "logical_cpu_count": 12,
+  "total_memory_bytes": 16806248448,
+  "python_executable": "C:/Users/qorud/AppData/Local/Programs/Python/Python312/python.exe",
+  "runner_sha256": "081766dc49d1a4081401fe812b2f2e24ef45556a204adf7dd878319e97ae9351",
+  "gmp_version": "6.3.0",
+  "gmp_probe": "ctypes __gmp_version from benchmark/libgmp-10.dll after the run"
+}

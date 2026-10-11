@@ -28,6 +28,18 @@ def sha_file(path):
 def dump(path, obj):
     Path(path).write_text(json.dumps(obj, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
+def preserve_runner(out):
+    source = Path(__file__).resolve()
+    content = source.read_bytes()
+    snapshot = out/"run_benchmark.executed.py"
+    with snapshot.open("xb") as stream:
+        stream.write(content)
+    receipt = {"source":source.name, "copy":snapshot.name,
+               "sha256":hashlib.sha256(content).hexdigest(), "bytes":len(content),
+               "frozen_utc":utcnow(), "phase":"before manifest generation and solver execution"}
+    dump(out/"runner-source-receipt.json", receipt)
+    return receipt
+
 def generate_instances():
     instances = []
     p0 = list(range(18,29)) + list(range(30,45))
@@ -188,16 +200,19 @@ def main():
     if any(not e["source"].is_file() or (not args.dry_run and not e["binary"].is_file()) for e in engines.values()):
         parser.error("all sources and compiled binaries must exist")
     out = args.out_dir.resolve()
-    if (out/"runs.jsonl").exists() or (out/"manifest.json").exists():
+    evidence_files = ("runs.jsonl", "manifest.json", "run_benchmark.executed.py", "runner-source-receipt.json")
+    if any((out/name).exists() for name in evidence_files):
         parser.error("output already contains a run; choose a fresh --out-dir to preserve evidence")
     out.mkdir(parents=True, exist_ok=True)
     (out/"logs").mkdir(exist_ok=True)
+    runner_receipt = preserve_runner(out)
     instances = generate_instances()
     manifest = {"created_utc":utcnow(), "minimum":18, "terms":33,
                 "selection":"all 190 P0 pairs; all 31 P1 final values; controls next31/32/33, fixed before timing",
                 "families":{"broad":190,"structural":31,"control":3}, "instances":instances}
     dump(out/"manifest.json", manifest)
     metadata = {"created_utc":utcnow(), "python":sys.version, "platform":platform.platform(),
+                "runner_source_sha256":runner_receipt["sha256"], "runner_snapshot":runner_receipt["copy"],
                 "machine":platform.machine(), "processor":os.environ.get("PROCESSOR_IDENTIFIER",platform.processor()), "logical_cpus":os.cpu_count(),
                 "runtime_dependency_sha256":{str(p):sha_file(p) for directory in sorted({e["binary"].parent for e in engines.values()}) for p in sorted(directory.glob("*.dll"))},
                 "engine_kind":engine_kind,
@@ -278,12 +293,14 @@ def main():
     summary = summarize(records,instances,args.repeats,metadata)
     summary["source_unchanged"] = all(sha_file(e["source"])==metadata["source_sha256"][mode] for mode,e in engines.items())
     summary["binary_unchanged"] = all(sha_file(e["binary"])==metadata["binary_sha256"][mode] for mode,e in engines.items())
+    summary["runner_source_sha256"] = runner_receipt["sha256"]
+    summary["runner_unchanged"] = sha_file(Path(__file__).resolve()) == runner_receipt["sha256"]
     summary["engine_kind"] = engine_kind
     summary["single_binary_comparison"] = metadata["single_binary_comparison"]
     summary["instrumentation_note"] = metadata["instrumentation_note"]
     dump(out/"summary.json",summary)
     print(json.dumps({"event":"benchmark-complete","output":str(out),"recorded_runs":len(records),"triple_complete_pairs":summary["triple_complete_pairs"],"all_repetitions_triple_complete_instances":summary["all_repetitions_triple_complete_instances"],"answer_mismatches":len(summary["answer_mismatches"]),"per_mode":summary["per_mode"]}),flush=True)
-    return 1 if summary["answer_mismatches"] or any(x["errors"] for x in summary["per_mode"].values()) or not summary["source_unchanged"] or not summary["binary_unchanged"] else 0
+    return 1 if summary["answer_mismatches"] or any(x["errors"] for x in summary["per_mode"].values()) or not summary["source_unchanged"] or not summary["binary_unchanged"] or not summary["runner_unchanged"] else 0
 
 if __name__ == "__main__":
     raise SystemExit(main())

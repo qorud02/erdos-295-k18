@@ -1,0 +1,64 @@
+{
+  "created_utc": "2026-10-11T21:06:08.990136+00:00",
+  "python": "3.12.9 (tags/v3.12.9:fdb8142, Feb  4 2025, 15:27:58) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "machine": "",
+  "processor": "",
+  "logical_cpus": 12,
+  "runtime_dependency_sha256": {
+    "C:\\Users\\qorud\\OneDrive\\Documents\\New project\\outputs\\erdos-295-extension-2026-10-12\\benchmark\\libgcc_s_seh-1.dll": "68ca4574b331402879dec403ba4f14491c9b8fc4aa3f4a41432008714b9bc5df",
+    "C:\\Users\\qorud\\OneDrive\\Documents\\New project\\outputs\\erdos-295-extension-2026-10-12\\benchmark\\libgmp-10.dll": "525f5681dc5fb40ef86b1bcb0ee5c40142aec689e0a1ba8c8e40199173366f6a",
+    "C:\\Users\\qorud\\OneDrive\\Documents\\New project\\outputs\\erdos-295-extension-2026-10-12\\benchmark\\libwinpthread-1.dll": "76cc52adfcdb8c800813b2ae8da42a908934eb1ee54ce8e9744fc8d703c76ee1"
+  },
+  "engine_kind": "single-matched-executable",
+  "single_binary_comparison": true,
+  "engines": {
+    "off": {
+      "source_path": "C:\\Users\\qorud\\OneDrive\\Documents\\New project\\outputs\\erdos-295-extension-2026-10-12\\benchmark\\matched-search.cpp",
+      "source_sha256": "4d3f59a15beeaeec519bbc9dd65f03d14c4135b29deba3b4e131acfcdcedad2a",
+      "binary_path": "C:\\Users\\qorud\\OneDrive\\Documents\\New project\\outputs\\erdos-295-extension-2026-10-12\\benchmark\\matched-final.exe",
+      "binary_sha256": "667e27b4e4b043f977b9595f0501217846e5ba705eed70dbb2b0f425e1cf4d9f"
+    },
+    "single": {
+      "source_path": "C:\\Users\\qorud\\OneDrive\\Documents\\New project\\outputs\\erdos-295-extension-2026-10-12\\benchmark\\matched-search.cpp",
+      "source_sha256": "4d3f59a15beeaeec519bbc9dd65f03d14c4135b29deba3b4e131acfcdcedad2a",
+      "binary_path": "C:\\Users\\qorud\\OneDrive\\Documents\\New project\\outputs\\erdos-295-extension-2026-10-12\\benchmark\\matched-final.exe",
+      "binary_sha256": "667e27b4e4b043f977b9595f0501217846e5ba705eed70dbb2b0f425e1cf4d9f"
+    },
+    "nested": {
+      "source_path": "C:\\Users\\qorud\\OneDrive\\Documents\\New project\\outputs\\erdos-295-extension-2026-10-12\\benchmark\\matched-search.cpp",
+      "source_sha256": "4d3f59a15beeaeec519bbc9dd65f03d14c4135b29deba3b4e131acfcdcedad2a",
+      "binary_path": "C:\\Users\\qorud\\OneDrive\\Documents\\New project\\outputs\\erdos-295-extension-2026-10-12\\benchmark\\matched-final.exe",
+      "binary_sha256": "667e27b4e4b043f977b9595f0501217846e5ba705eed70dbb2b0f425e1cf4d9f"
+    }
+  },
+  "source_sha256": {
+    "off": "4d3f59a15beeaeec519bbc9dd65f03d14c4135b29deba3b4e131acfcdcedad2a",
+    "single": "4d3f59a15beeaeec519bbc9dd65f03d14c4135b29deba3b4e131acfcdcedad2a",
+    "nested": "4d3f59a15beeaeec519bbc9dd65f03d14c4135b29deba3b4e131acfcdcedad2a"
+  },
+  "binary_sha256": {
+    "off": "667e27b4e4b043f977b9595f0501217846e5ba705eed70dbb2b0f425e1cf4d9f",
+    "single": "667e27b4e4b043f977b9595f0501217846e5ba705eed70dbb2b0f425e1cf4d9f",
+    "nested": "667e27b4e4b043f977b9595f0501217846e5ba705eed70dbb2b0f425e1cf4d9f"
+  },
+  "instrumentation_note": "Matched source with explicit quota modes; frozen checkpoint comparison remains separate.",
+  "manifest_sha256": "826fa365f2abb26cfdd197b76bc71723e90911d17f8beb5a0a82cd7c9e7d4628",
+  "compiler_note": "MSVC19.44.35228 /O2 C++17 GMP",
+  "repeats": 3,
+  "seconds": 2.0,
+  "control_seconds": 30.0,
+  "joint_pruning": true,
+  "prime_pruning": true,
+  "execution": "serial fresh subprocess per mode and case; no cache reuse; rotating mode order by repetition",
+  "preprocessing": {
+    "included": "solver internal time includes prefix reduction, factor setup and quota checks; external wall time also includes process startup",
+    "excluded": "compilation and deriving the local exclusion premises; cold-start speedup not measured",
+    "historical_premise_cost_seconds": {
+      "all_5_to_4": 95.781,
+      "fixed_core_6_to_5_including_replay": 257.625
+    },
+    "historical_machine_normalized": false,
+    "premise_verification": "verify_local_premises.py and local exact search reproduction remain separate from online benchmark"
+  }
+}

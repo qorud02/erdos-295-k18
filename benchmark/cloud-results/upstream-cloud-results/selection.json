@@ -1,0 +1,197 @@
+{
+  "suite": "pilot",
+  "full_manifest_sha256": "826fa365f2abb26cfdd197b76bc71723e90911d17f8beb5a0a82cd7c9e7d4628",
+  "full_manifest_instances": 224,
+  "selected_instances": 53,
+  "selection_rule": "all control and structural cases; broad zero-based ordinal divisible by10",
+  "instance_ids": [
+    "broad-045-046",
+    "broad-045-056",
+    "broad-046-048",
+    "broad-046-058",
+    "broad-047-051",
+    "broad-047-061",
+    "broad-048-055",
+    "broad-049-050",
+    "broad-049-060",
+    "broad-050-056",
+    "broad-051-053",
+    "broad-051-063",
+    "broad-052-061",
+    "broad-053-060",
+    "broad-054-060",
+    "broad-055-061",
+    "broad-056-063",
+    "broad-058-060",
+    "broad-060-061",
+    "structural-049",
+    "structural-050",
+    "structural-051",
+    "structural-052",
+    "structural-053",
+    "structural-054",
+    "structural-055",
+    "structural-056",
+    "structural-057",
+    "structural-058",
+    "structural-059",
+    "structural-060",
+    "structural-061",
+    "structural-062",
+    "structural-063",
+    "structural-064",
+    "structural-065",
+    "structural-066",
+    "structural-067",
+    "structural-068",
+    "structural-069",
+    "structural-070",
+    "structural-071",
+    "structural-072",
+    "structural-073",
+    "structural-074",
+    "structural-075",
+    "structural-076",
+    "structural-077",
+    "structural-078",
+    "structural-079",
+    "control-next-31",
+    "control-next-32",
+    "control-next-33"
+  ],
+  "api_controls": [
+    {
+      "id": "api-one-1-2-min2",
+      "api": "one_rep",
+      "target": "1",
+      "terms": 2,
+      "minimum": 2,
+      "expected": []
+    },
+    {
+      "id": "api-one-1-3-min2",
+      "api": "one_rep",
+      "target": "1",
+      "terms": 3,
+      "minimum": 2,
+      "expected": [
+        [
+          2,
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "id": "api-one-1-4-min2",
+      "api": "one_rep",
+      "target": "1",
+      "terms": 4,
+      "minimum": 2,
+      "expected": [
+        [
+          2,
+          3,
+          7,
+          42
+        ],
+        [
+          2,
+          3,
+          8,
+          24
+        ],
+        [
+          2,
+          3,
+          9,
+          18
+        ],
+        [
+          2,
+          3,
+          10,
+          15
+        ],
+        [
+          2,
+          4,
+          5,
+          20
+        ],
+        [
+          2,
+          4,
+          6,
+          12
+        ]
+      ]
+    },
+    {
+      "id": "api-one-1-4-min3",
+      "api": "one_rep",
+      "target": "1",
+      "terms": 4,
+      "minimum": 3,
+      "expected": []
+    },
+    {
+      "id": "api-one-half-2-min3",
+      "api": "one_rep",
+      "target": "1/2",
+      "terms": 2,
+      "minimum": 3,
+      "expected": [
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "id": "api-all-1-4-min2",
+      "api": "all_rep",
+      "target": "1",
+      "terms": 4,
+      "minimum": 2,
+      "expected": [
+        [
+          2,
+          3,
+          7,
+          42
+        ],
+        [
+          2,
+          3,
+          8,
+          24
+        ],
+        [
+          2,
+          3,
+          9,
+          18
+        ],
+        [
+          2,
+          3,
+          10,
+          15
+        ],
+        [
+          2,
+          4,
+          5,
+          20
+        ],
+        [
+          2,
+          4,
+          6,
+          12
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-10-11T21:26:50.218708+00:00",
+  "upstream_commit": "8680599e77683a9057ee55871a0893bb319300e8",
+  "upstream_source_url": "https://raw.githubusercontent.com/maxale/egyptian-fractions/8680599e77683a9057ee55871a0893bb319300e8/egypt_rep.sage",
+  "upstream_sha256": "4febfdbee3710f05775f41bc15a9046984c69da1f7a53f105116579a663ad480",
+  "wrapper_sha256": "49f054863b0b54dd3a74255bbd315c369d3da87bc304673655c0661f6929ec8a",
+  "official_image_recommendation": "sagemath/sagemath:10.8@sha256:e2e4747b0e1ea8753a9cb5a399314a8b2c25fcefaf69ba85b22ee075829d09ea",
+  "sage_version": "10.8",
+  "python": "3.12.5 (main, Dec 19 2025, 01:25:39) [GCC 11.4.0]",
+  "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.35",
+  "cpu_affinity": [
+    0
+  ],
+  "sage_map_reduce_workers": 1,
+  "manifest_sha256": "826fa365f2abb26cfdd197b76bc71723e90911d17f8beb5a0a82cd7c9e7d4628",
+  "suite": "pilot",
+  "seconds_limit": 5.0,
+  "control_seconds_limit": 30.0,
+  "source_fetch_and_Sage_load_seconds": 4.114717454000001,
+  "timing": "solver timer surrounds unchanged original API; excludes Sage startup/source fetch/load/fork; includes API parallel setup and cleanup; wall_seconds includes case fork and watchdog cleanup",
+  "semantics": "exact rational sum, distinct increasing denominators, no maximum denominator, no overlap-quota pruning in upstream",
+  "watchdog": "separate POSIX session per case; parent kills entire case process group; late answers remain censored",
+  "preprocessing": "local exclusion-premise derivation is excluded from these upstream timings and must be charged separately for cold-start comparisons"
+}

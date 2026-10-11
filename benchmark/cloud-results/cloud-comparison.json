@@ -1,0 +1,931 @@
+{
+  "manifest_sha256": "826fa365f2abb26cfdd197b76bc71723e90911d17f8beb5a0a82cd7c9e7d4628",
+  "pilot_cases": 53,
+  "same_cpu_affinity": [
+    0
+  ],
+  "single_repetition": true,
+  "all_four_complete_cases": 48,
+  "answer_mismatches": [],
+  "matched_complete_counts": {
+    "off": 53,
+    "single": 53,
+    "nested": 53
+  },
+  "sage_complete_count": 48,
+  "complete_paired_cases": [
+    {
+      "id": "broad-045-056",
+      "family": "broad",
+      "sage_seconds": 1.4185017550000083,
+      "cpp": {
+        "off": {
+          "seconds": 0.006202,
+          "nodes": 1896
+        },
+        "single": {
+          "seconds": 0.00622,
+          "nodes": 1896
+        },
+        "nested": {
+          "seconds": 0.006379,
+          "nodes": 1896
+        }
+      }
+    },
+    {
+      "id": "broad-046-058",
+      "family": "broad",
+      "sage_seconds": 0.85171011300001,
+      "cpp": {
+        "off": {
+          "seconds": 0.003334,
+          "nodes": 637
+        },
+        "single": {
+          "seconds": 0.003332,
+          "nodes": 637
+        },
+        "nested": {
+          "seconds": 0.003415,
+          "nodes": 637
+        }
+      }
+    },
+    {
+      "id": "broad-047-051",
+      "family": "broad",
+      "sage_seconds": 3.1524603260000106,
+      "cpp": {
+        "off": {
+          "seconds": 0.015566,
+          "nodes": 6895
+        },
+        "single": {
+          "seconds": 0.016372,
+          "nodes": 6895
+        },
+        "nested": {
+          "seconds": 0.016141,
+          "nodes": 6895
+        }
+      }
+    },
+    {
+      "id": "broad-047-061",
+      "family": "broad",
+      "sage_seconds": 0.3480258040000024,
+      "cpp": {
+        "off": {
+          "seconds": 7.5e-05,
+          "nodes": 1
+        },
+        "single": {
+          "seconds": 7.6e-05,
+          "nodes": 1
+        },
+        "nested": {
+          "seconds": 8.4e-05,
+          "nodes": 1
+        }
+      }
+    },
+    {
+      "id": "broad-048-055",
+      "family": "broad",
+      "sage_seconds": 1.317960969000012,
+      "cpp": {
+        "off": {
+          "seconds": 0.006473,
+          "nodes": 1846
+        },
+        "single": {
+          "seconds": 0.007563,
+          "nodes": 1846
+        },
+        "nested": {
+          "seconds": 0.006776,
+          "nodes": 1846
+        }
+      }
+    },
+    {
+      "id": "broad-049-050",
+      "family": "broad",
+      "sage_seconds": 3.3797371680000197,
+      "cpp": {
+        "off": {
+          "seconds": 0.015124,
+          "nodes": 7516
+        },
+        "single": {
+          "seconds": 0.015438,
+          "nodes": 7516
+        },
+        "nested": {
+          "seconds": 0.015436,
+          "nodes": 7516
+        }
+      }
+    },
+    {
+      "id": "broad-049-060",
+      "family": "broad",
+      "sage_seconds": 0.42158857499998703,
+      "cpp": {
+        "off": {
+          "seconds": 0.000114,
+          "nodes": 1
+        },
+        "single": {
+          "seconds": 0.000143,
+          "nodes": 1
+        },
+        "nested": {
+          "seconds": 0.000118,
+          "nodes": 1
+        }
+      }
+    },
+    {
+      "id": "broad-050-056",
+      "family": "broad",
+      "sage_seconds": 0.9454246890000206,
+      "cpp": {
+        "off": {
+          "seconds": 0.004067,
+          "nodes": 892
+        },
+        "single": {
+          "seconds": 0.004096,
+          "nodes": 892
+        },
+        "nested": {
+          "seconds": 0.004203,
+          "nodes": 892
+        }
+      }
+    },
+    {
+      "id": "broad-051-053",
+      "family": "broad",
+      "sage_seconds": 1.6164705150000032,
+      "cpp": {
+        "off": {
+          "seconds": 0.007198,
+          "nodes": 2654
+        },
+        "single": {
+          "seconds": 0.007372,
+          "nodes": 2654
+        },
+        "nested": {
+          "seconds": 0.007591,
+          "nodes": 2654
+        }
+      }
+    },
+    {
+      "id": "broad-051-063",
+      "family": "broad",
+      "sage_seconds": 0.15602169800001775,
+      "cpp": {
+        "off": {
+          "seconds": 6.9e-05,
+          "nodes": 1
+        },
+        "single": {
+          "seconds": 7.1e-05,
+          "nodes": 1
+        },
+        "nested": {
+          "seconds": 7.2e-05,
+          "nodes": 1
+        }
+      }
+    },
+    {
+      "id": "broad-052-061",
+      "family": "broad",
+      "sage_seconds": 0.24618820200001323,
+      "cpp": {
+        "off": {
+          "seconds": 7.1e-05,
+          "nodes": 1
+        },
+        "single": {
+          "seconds": 7.8e-05,
+          "nodes": 1
+        },
+        "nested": {
+          "seconds": 7.6e-05,
+          "nodes": 1
+        }
+      }
+    },
+    {
+      "id": "broad-053-060",
+      "family": "broad",
+      "sage_seconds": 0.2823659740000153,
+      "cpp": {
+        "off": {
+          "seconds": 9.5e-05,
+          "nodes": 1
+        },
+        "single": {
+          "seconds": 7.4e-05,
+          "nodes": 1
+        },
+        "nested": {
+          "seconds": 7.7e-05,
+          "nodes": 1
+        }
+      }
+    },
+    {
+      "id": "broad-054-060",
+      "family": "broad",
+      "sage_seconds": 0.26636181899999656,
+      "cpp": {
+        "off": {
+          "seconds": 0.000391,
+          "nodes": 14
+        },
+        "single": {
+          "seconds": 0.000395,
+          "nodes": 14
+        },
+        "nested": {
+          "seconds": 0.000446,
+          "nodes": 14
+        }
+      }
+    },
+    {
+      "id": "broad-055-061",
+      "family": "broad",
+      "sage_seconds": 0.19157433899999887,
+      "cpp": {
+        "off": {
+          "seconds": 7.2e-05,
+          "nodes": 1
+        },
+        "single": {
+          "seconds": 7.6e-05,
+          "nodes": 1
+        },
+        "nested": {
+          "seconds": 7.4e-05,
+          "nodes": 1
+        }
+      }
+    },
+    {
+      "id": "broad-056-063",
+      "family": "broad",
+      "sage_seconds": 0.10491717000002154,
+      "cpp": {
+        "off": {
+          "seconds": 7.1e-05,
+          "nodes": 1
+        },
+        "single": {
+          "seconds": 7.2e-05,
+          "nodes": 1
+        },
+        "nested": {
+          "seconds": 7.4e-05,
+          "nodes": 1
+        }
+      }
+    },
+    {
+      "id": "broad-058-060",
+      "family": "broad",
+      "sage_seconds": 0.20241092199998434,
+      "cpp": {
+        "off": {
+          "seconds": 0.000119,
+          "nodes": 1
+        },
+        "single": {
+          "seconds": 0.000122,
+          "nodes": 1
+        },
+        "nested": {
+          "seconds": 0.000123,
+          "nodes": 1
+        }
+      }
+    },
+    {
+      "id": "broad-060-061",
+      "family": "broad",
+      "sage_seconds": 0.13570380099997692,
+      "cpp": {
+        "off": {
+          "seconds": 7.1e-05,
+          "nodes": 1
+        },
+        "single": {
+          "seconds": 7.3e-05,
+          "nodes": 1
+        },
+        "nested": {
+          "seconds": 0.00012,
+          "nodes": 1
+        }
+      }
+    },
+    {
+      "id": "structural-051",
+      "family": "structural",
+      "sage_seconds": 4.813509561999979,
+      "cpp": {
+        "off": {
+          "seconds": 0.025507,
+          "nodes": 11873
+        },
+        "single": {
+          "seconds": 0.026642,
+          "nodes": 11645
+        },
+        "nested": {
+          "seconds": 0.020784,
+          "nodes": 7906
+        }
+      }
+    },
+    {
+      "id": "structural-052",
+      "family": "structural",
+      "sage_seconds": 3.9100752450000016,
+      "cpp": {
+        "off": {
+          "seconds": 0.020192,
+          "nodes": 9444
+        },
+        "single": {
+          "seconds": 0.016772,
+          "nodes": 7276
+        },
+        "nested": {
+          "seconds": 4.7e-05,
+          "nodes": 1
+        }
+      }
+    },
+    {
+      "id": "structural-053",
+      "family": "structural",
+      "sage_seconds": 3.509922696999979,
+      "cpp": {
+        "off": {
+          "seconds": 0.016743,
+          "nodes": 7423
+        },
+        "single": {
+          "seconds": 0.016656,
+          "nodes": 7362
+        },
+        "nested": {
+          "seconds": 0.013493,
+          "nodes": 5508
+        }
+      }
+    },
+    {
+      "id": "structural-054",
+      "family": "structural",
+      "sage_seconds": 2.693969583000012,
+      "cpp": {
+        "off": {
+          "seconds": 0.015453,
+          "nodes": 5706
+        },
+        "single": {
+          "seconds": 0.019757,
+          "nodes": 5056
+        },
+        "nested": {
+          "seconds": 4.8e-05,
+          "nodes": 1
+        }
+      }
+    },
+    {
+      "id": "structural-055",
+      "family": "structural",
+      "sage_seconds": 2.2425434159999895,
+      "cpp": {
+        "off": {
+          "seconds": 0.011952,
+          "nodes": 4382
+        },
+        "single": {
+          "seconds": 0.012063,
+          "nodes": 4382
+        },
+        "nested": {
+          "seconds": 0.010664,
+          "nodes": 3808
+        }
+      }
+    },
+    {
+      "id": "structural-056",
+      "family": "structural",
+      "sage_seconds": 1.9057098959999905,
+      "cpp": {
+        "off": {
+          "seconds": 0.010942,
+          "nodes": 3242
+        },
+        "single": {
+          "seconds": 0.010612,
+          "nodes": 3242
+        },
+        "nested": {
+          "seconds": 0.009165,
+          "nodes": 2772
+        }
+      }
+    },
+    {
+      "id": "structural-057",
+      "family": "structural",
+      "sage_seconds": 1.5727726910000115,
+      "cpp": {
+        "off": {
+          "seconds": 0.007643,
+          "nodes": 2332
+        },
+        "single": {
+          "seconds": 0.007882,
+          "nodes": 2332
+        },
+        "nested": {
+          "seconds": 0.006867,
+          "nodes": 1924
+        }
+      }
+    },
+    {
+      "id": "structural-058",
+      "family": "structural",
+      "sage_seconds": 1.2809950740000033,
+      "cpp": {
+        "off": {
+          "seconds": 0.005938,
+          "nodes": 1608
+        },
+        "single": {
+          "seconds": 0.006162,
+          "nodes": 1608
+        },
+        "nested": {
+          "seconds": 0.005122,
+          "nodes": 1290
+        }
+      }
+    },
+    {
+      "id": "structural-059",
+      "family": "structural",
+      "sage_seconds": 1.0879942450000044,
+      "cpp": {
+        "off": {
+          "seconds": 0.003375,
+          "nodes": 1024
+        },
+        "single": {
+          "seconds": 0.003504,
+          "nodes": 1024
+        },
+        "nested": {
+          "seconds": 0.002753,
+          "nodes": 761
+        }
+      }
+    },
+    {
+      "id": "structural-060",
+      "family": "structural",
+      "sage_seconds": 0.8481052120000072,
+      "cpp": {
+        "off": {
+          "seconds": 0.003154,
+          "nodes": 613
+        },
+        "single": {
+          "seconds": 0.003218,
+          "nodes": 613
+        },
+        "nested": {
+          "seconds": 0.002479,
+          "nodes": 400
+        }
+      }
+    },
+    {
+      "id": "structural-061",
+      "family": "structural",
+      "sage_seconds": 0.707705787000009,
+      "cpp": {
+        "off": {
+          "seconds": 0.001653,
+          "nodes": 344
+        },
+        "single": {
+          "seconds": 0.001783,
+          "nodes": 344
+        },
+        "nested": {
+          "seconds": 0.001276,
+          "nodes": 209
+        }
+      }
+    },
+    {
+      "id": "structural-062",
+      "family": "structural",
+      "sage_seconds": 0.5390566300000046,
+      "cpp": {
+        "off": {
+          "seconds": 0.001163,
+          "nodes": 111
+        },
+        "single": {
+          "seconds": 0.001222,
+          "nodes": 111
+        },
+        "nested": {
+          "seconds": 0.000582,
+          "nodes": 18
+        }
+      }
+    },
+    {
+      "id": "structural-063",
+      "family": "structural",
+      "sage_seconds": 0.4243571579999923,
+      "cpp": {
+        "off": {
+          "seconds": 0.000582,
+          "nodes": 17
+        },
+        "single": {
+          "seconds": 0.000604,
+          "nodes": 17
+        },
+        "nested": {
+          "seconds": 4.7e-05,
+          "nodes": 1
+        }
+      }
+    },
+    {
+      "id": "structural-064",
+      "family": "structural",
+      "sage_seconds": 0.3421800019999921,
+      "cpp": {
+        "off": {
+          "seconds": 0.000114,
+          "nodes": 1
+        },
+        "single": {
+          "seconds": 0.000116,
+          "nodes": 1
+        },
+        "nested": {
+          "seconds": 0.000116,
+          "nodes": 1
+        }
+      }
+    },
+    {
+      "id": "structural-065",
+      "family": "structural",
+      "sage_seconds": 0.26812923699998237,
+      "cpp": {
+        "off": {
+          "seconds": 0.00011,
+          "nodes": 1
+        },
+        "single": {
+          "seconds": 0.000115,
+          "nodes": 1
+        },
+        "nested": {
+          "seconds": 0.000118,
+          "nodes": 1
+        }
+      }
+    },
+    {
+      "id": "structural-066",
+      "family": "structural",
+      "sage_seconds": 0.2057311860000084,
+      "cpp": {
+        "off": {
+          "seconds": 0.000112,
+          "nodes": 1
+        },
+        "single": {
+          "seconds": 0.000113,
+          "nodes": 1
+        },
+        "nested": {
+          "seconds": 0.000115,
+          "nodes": 1
+        }
+      }
+    },
+    {
+      "id": "structural-067",
+      "family": "structural",
+      "sage_seconds": 0.1616328009999961,
+      "cpp": {
+        "off": {
+          "seconds": 7.2e-05,
+          "nodes": 1
+        },
+        "single": {
+          "seconds": 7.7e-05,
+          "nodes": 1
+        },
+        "nested": {
+          "seconds": 7.7e-05,
+          "nodes": 1
+        }
+      }
+    },
+    {
+      "id": "structural-068",
+      "family": "structural",
+      "sage_seconds": 0.11915127099999268,
+      "cpp": {
+        "off": {
+          "seconds": 7.2e-05,
+          "nodes": 1
+        },
+        "single": {
+          "seconds": 7.4e-05,
+          "nodes": 1
+        },
+        "nested": {
+          "seconds": 7.8e-05,
+          "nodes": 1
+        }
+      }
+    },
+    {
+      "id": "structural-069",
+      "family": "structural",
+      "sage_seconds": 0.091372333999999,
+      "cpp": {
+        "off": {
+          "seconds": 6.9e-05,
+          "nodes": 1
+        },
+        "single": {
+          "seconds": 7.3e-05,
+          "nodes": 1
+        },
+        "nested": {
+          "seconds": 7.2e-05,
+          "nodes": 1
+        }
+      }
+    },
+    {
+      "id": "structural-070",
+      "family": "structural",
+      "sage_seconds": 0.07086204699999143,
+      "cpp": {
+        "off": {
+          "seconds": 7.4e-05,
+          "nodes": 1
+        },
+        "single": {
+          "seconds": 7.1e-05,
+          "nodes": 1
+        },
+        "nested": {
+          "seconds": 7e-05,
+          "nodes": 1
+        }
+      }
+    },
+    {
+      "id": "structural-071",
+      "family": "structural",
+      "sage_seconds": 0.055718456999983346,
+      "cpp": {
+        "off": {
+          "seconds": 6.3e-05,
+          "nodes": 1
+        },
+        "single": {
+          "seconds": 6.5e-05,
+          "nodes": 1
+        },
+        "nested": {
+          "seconds": 9.6e-05,
+          "nodes": 1
+        }
+      }
+    },
+    {
+      "id": "structural-072",
+      "family": "structural",
+      "sage_seconds": 0.0435637009999823,
+      "cpp": {
+        "off": {
+          "seconds": 6.2e-05,
+          "nodes": 1
+        },
+        "single": {
+          "seconds": 6.4e-05,
+          "nodes": 1
+        },
+        "nested": {
+          "seconds": 6.6e-05,
+          "nodes": 1
+        }
+      }
+    },
+    {
+      "id": "structural-073",
+      "family": "structural",
+      "sage_seconds": 0.03599070999999299,
+      "cpp": {
+        "off": {
+          "seconds": 6e-05,
+          "nodes": 1
+        },
+        "single": {
+          "seconds": 6.2e-05,
+          "nodes": 1
+        },
+        "nested": {
+          "seconds": 9.7e-05,
+          "nodes": 1
+        }
+      }
+    },
+    {
+      "id": "structural-074",
+      "family": "structural",
+      "sage_seconds": 0.034314431000012746,
+      "cpp": {
+        "off": {
+          "seconds": 5.8e-05,
+          "nodes": 1
+        },
+        "single": {
+          "seconds": 6e-05,
+          "nodes": 1
+        },
+        "nested": {
+          "seconds": 6.1e-05,
+          "nodes": 1
+        }
+      }
+    },
+    {
+      "id": "structural-075",
+      "family": "structural",
+      "sage_seconds": 0.02879713999999467,
+      "cpp": {
+        "off": {
+          "seconds": 5.9e-05,
+          "nodes": 1
+        },
+        "single": {
+          "seconds": 5.9e-05,
+          "nodes": 1
+        },
+        "nested": {
+          "seconds": 5.8e-05,
+          "nodes": 1
+        }
+      }
+    },
+    {
+      "id": "structural-076",
+      "family": "structural",
+      "sage_seconds": 0.02897394200002168,
+      "cpp": {
+        "off": {
+          "seconds": 5e-05,
+          "nodes": 1
+        },
+        "single": {
+          "seconds": 5e-05,
+          "nodes": 1
+        },
+        "nested": {
+          "seconds": 5.1e-05,
+          "nodes": 1
+        }
+      }
+    },
+    {
+      "id": "structural-077",
+      "family": "structural",
+      "sage_seconds": 0.025933953000020438,
+      "cpp": {
+        "off": {
+          "seconds": 5.1e-05,
+          "nodes": 1
+        },
+        "single": {
+          "seconds": 4.9e-05,
+          "nodes": 1
+        },
+        "nested": {
+          "seconds": 5e-05,
+          "nodes": 1
+        }
+      }
+    },
+    {
+      "id": "structural-078",
+      "family": "structural",
+      "sage_seconds": 0.024831382000002122,
+      "cpp": {
+        "off": {
+          "seconds": 5e-05,
+          "nodes": 1
+        },
+        "single": {
+          "seconds": 4.9e-05,
+          "nodes": 1
+        },
+        "nested": {
+          "seconds": 5e-05,
+          "nodes": 1
+        }
+      }
+    },
+    {
+      "id": "structural-079",
+      "family": "structural",
+      "sage_seconds": 0.025251983000003975,
+      "cpp": {
+        "off": {
+          "seconds": 5e-05,
+          "nodes": 1
+        },
+        "single": {
+          "seconds": 5.4e-05,
+          "nodes": 1
+        },
+        "nested": {
+          "seconds": 5.1e-05,
+          "nodes": 1
+        }
+      }
+    },
+    {
+      "id": "control-next-32",
+      "family": "control",
+      "sage_seconds": 23.604649995000017,
+      "cpp": {
+        "off": {
+          "seconds": 0.000738,
+          "nodes": 31
+        },
+        "single": {
+          "seconds": 0.000935,
+          "nodes": 31
+        },
+        "nested": {
+          "seconds": 0.000929,
+          "nodes": 31
+        }
+      }
+    },
+    {
+      "id": "control-next-33",
+      "family": "control",
+      "sage_seconds": 2.925412759000011,
+      "cpp": {
+        "off": {
+          "seconds": 7.1e-05,
+          "nodes": 1
+        },
+        "single": {
+          "seconds": 7.4e-05,
+          "nodes": 1
+        },
+        "nested": {
+          "seconds": 7.4e-05,
+          "nodes": 1
+        }
+      }
+    }
+  ],
+  "interpretation": "Single-run controlled pilot on fixed subtrees. Correctness and timing evidence for these cases; broader general speedup and global33-term exclusion remain unestablished."
+}

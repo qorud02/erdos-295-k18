@@ -1,0 +1,80 @@
+{
+  "status": "passed",
+  "seed": 29518102026,
+  "residual_cases": 972,
+  "input_sha256": "20fb8772c2342496371831f5b487b9763cfa1f95bed0ec6503f4224b53bfd4b6",
+  "source_sha256": "4d3f59a15beeaeec519bbc9dd65f03d14c4135b29deba3b4e131acfcdcedad2a",
+  "reference_count": 34,
+  "small_reference_count": 32,
+  "mode_limits": {
+    "0": {
+      "reference": 33,
+      "small_reference": 33
+    },
+    "1": {
+      "reference": 28,
+      "small_reference": 33
+    },
+    "2": {
+      "reference": 28,
+      "small_reference": 27
+    }
+  },
+  "verdict_counts": {
+    "witness": 349,
+    "exhausted": 623
+  },
+  "modes": {
+    "0": {
+      "witness": 186,
+      "exhausted": 140
+    },
+    "1": {
+      "witness": 94,
+      "exhausted": 226
+    },
+    "2": {
+      "witness": 69,
+      "exhausted": 257
+    }
+  },
+  "groups": {
+    "unit-witness": 75,
+    "unit-order-exhausted": 75,
+    "unit-quota-boundary": 48,
+    "non-unit-terminal": 3,
+    "zero-residual-positive-terms": 3,
+    "exact-target-quota-boundary": 288,
+    "deterministic-exact-target": 240,
+    "deterministic-rational": 240
+  },
+  "observed_engine_counters": {
+    "nodes": 1516,
+    "prime_prunes": 0,
+    "joint_prunes": 0,
+    "harmonic_prunes": 30,
+    "quota_prunes": 407,
+    "two_candidates": 2835,
+    "quadratic_two_prunes": 313
+  },
+  "production_cli_scope_checks": [
+    {
+      "arguments": [
+        "--minimum",
+        "17"
+      ],
+      "returncode": 1,
+      "diagnostic": "benchmark fixed to certified minimum 18, terms 33"
+    },
+    {
+      "arguments": [
+        "--terms",
+        "32"
+      ],
+      "returncode": 1,
+      "diagnostic": "benchmark fixed to certified minimum 18, terms 33"
+    }
+  ],
+  "oracle": "exact unpruned rational recurrence; order and quota checks; no arbitrary denominator cap",
+  "scope": "conditional residual checks for t=1,2,3; production CLI fixed to N=18 and total 33 terms"
+}

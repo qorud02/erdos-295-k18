@@ -1,0 +1,138 @@
+{
+  "raw_runs_sha256": "8bae847c0488de8c8b7914d4138818dcc4a3687f7ae860c1aff94341eb0f0f5c",
+  "executed_runner_sha256": "081766dc49d1a4081401fe812b2f2e24ef45556a204adf7dd878319e97ae9351",
+  "analysis_source_sha256": "402ffcf0778fb9c5ee2194b22457180e906a7ce62b69fb3b35dc3164cb6643a8",
+  "recorded_runs": 2016,
+  "late_complete_count": 4,
+  "late_complete": [
+    {
+      "run_id": "r2-broad-045-048-off",
+      "instance_id": "broad-045-048",
+      "mode": "off",
+      "declared_seconds": 2.0,
+      "actual_elapsed_seconds": 2.102625,
+      "actual_status": "exhausted"
+    },
+    {
+      "run_id": "r2-broad-045-051-off",
+      "instance_id": "broad-045-051",
+      "mode": "off",
+      "declared_seconds": 2.0,
+      "actual_elapsed_seconds": 2.000539,
+      "actual_status": "exhausted"
+    },
+    {
+      "run_id": "r2-broad-046-048-off",
+      "instance_id": "broad-046-048",
+      "mode": "off",
+      "declared_seconds": 2.0,
+      "actual_elapsed_seconds": 2.343928,
+      "actual_status": "exhausted"
+    },
+    {
+      "run_id": "r2-broad-050-054-nested",
+      "instance_id": "broad-050-054",
+      "mode": "nested",
+      "declared_seconds": 2.0,
+      "actual_elapsed_seconds": 2.081938,
+      "actual_status": "exhausted"
+    }
+  ],
+  "strict_answer_mismatches": [],
+  "strict_triple_complete_instances": 213,
+  "common_cutoff_seconds": 5.0,
+  "complete_after_common_cutoff_count": 8,
+  "complete_after_common_cutoff": [
+    {
+      "run_id": "r1-control-next-31-off",
+      "elapsed_seconds": 6.897061
+    },
+    {
+      "run_id": "r1-control-next-31-single",
+      "elapsed_seconds": 6.899867
+    },
+    {
+      "run_id": "r2-control-next-31-single",
+      "elapsed_seconds": 10.067655
+    },
+    {
+      "run_id": "r2-control-next-31-nested",
+      "elapsed_seconds": 7.44068
+    },
+    {
+      "run_id": "r2-control-next-31-off",
+      "elapsed_seconds": 6.660465
+    },
+    {
+      "run_id": "r3-control-next-31-nested",
+      "elapsed_seconds": 10.558797
+    },
+    {
+      "run_id": "r3-control-next-31-off",
+      "elapsed_seconds": 9.002161
+    },
+    {
+      "run_id": "r3-control-next-31-single",
+      "elapsed_seconds": 5.530044
+    }
+  ],
+  "censored_before_common_cutoff_count": 9,
+  "censored_before_common_cutoff": [
+    {
+      "run_id": "r1-broad-045-047-single",
+      "declared_seconds": 2.0,
+      "elapsed_seconds": 2.13716,
+      "status": "timeout"
+    },
+    {
+      "run_id": "r1-broad-046-049-off",
+      "declared_seconds": 2.0,
+      "elapsed_seconds": 2.006425,
+      "status": "timeout"
+    },
+    {
+      "run_id": "r2-broad-045-046-off",
+      "declared_seconds": 2.0,
+      "elapsed_seconds": 2.080008,
+      "status": "timeout"
+    },
+    {
+      "run_id": "r2-broad-045-047-nested",
+      "declared_seconds": 2.0,
+      "elapsed_seconds": 2.158322,
+      "status": "timeout"
+    },
+    {
+      "run_id": "r2-broad-048-050-off",
+      "declared_seconds": 2.0,
+      "elapsed_seconds": 2.284655,
+      "status": "timeout"
+    },
+    {
+      "run_id": "r2-broad-052-053-off",
+      "declared_seconds": 2.0,
+      "elapsed_seconds": 2.183825,
+      "status": "timeout"
+    },
+    {
+      "run_id": "r2-structural-049-single",
+      "declared_seconds": 2.0,
+      "elapsed_seconds": 2.228939,
+      "status": "timeout"
+    },
+    {
+      "run_id": "r2-structural-049-off",
+      "declared_seconds": 2.0,
+      "elapsed_seconds": 2.018581,
+      "status": "timeout"
+    },
+    {
+      "run_id": "r2-structural-052-single",
+      "declared_seconds": 2.0,
+      "elapsed_seconds": 2.220284,
+      "status": "timeout"
+    }
+  ],
+  "common_cutoff_inference": "A timeout before the common cutoff stays censored; it does not establish that the case would remain unresolved at the longer common cutoff. Cross-system comparison needs identical cases and equal enforced budgets.",
+  "clock_policy": "The C++ watchdog polls each1024 DFS states and two-term candidate tests, so budgets are soft; actual elapsed times are retained. External process wall time is reported separately."
+}

@@ -1,0 +1,74 @@
+{
+  "files": [
+    {
+      "path": "manifest.json",
+      "bytes": 167322,
+      "sha256": "826fa365f2abb26cfdd197b76bc71723e90911d17f8beb5a0a82cd7c9e7d4628"
+    },
+    {
+      "path": "metadata.json",
+      "bytes": 4130,
+      "sha256": "8335e9ce49d051e39199f97830a8b162f01ba0d6d4ef0c239f6a2905f3906f92"
+    },
+    {
+      "path": "runs.jsonl",
+      "bytes": 2918583,
+      "sha256": "8bae847c0488de8c8b7914d4138818dcc4a3687f7ae860c1aff94341eb0f0f5c"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 230097,
+      "sha256": "a182b3ce8f5f8cc3eadebc915ec7faf925cfa75b8733fc6c68d59dd1093edd9a"
+    },
+    {
+      "path": "run_benchmark.executed.py",
+      "bytes": 19610,
+      "sha256": "081766dc49d1a4081401fe812b2f2e24ef45556a204adf7dd878319e97ae9351"
+    },
+    {
+      "path": "runner-source-receipt.json",
+      "bytes": 277,
+      "sha256": "c3b3c096fe4f48ffed65a27a6491c4a023840b022d50fb764ea6c18e3e3a775f"
+    },
+    {
+      "path": "strict-deadline-summary.json",
+      "bytes": 226120,
+      "sha256": "ce353eb0718457a1396ec0e4086d9ba66e16a3aff1890de4e7bc2008c0fc9d79"
+    },
+    {
+      "path": "deadline-audit.json",
+      "bytes": 4157,
+      "sha256": "b61caf74b5a9f880f0c7ff69bfa8b5e0461856ac718978e73d961acb066ea1a6"
+    },
+    {
+      "path": "host-runtime-details.json",
+      "bytes": 515,
+      "sha256": "0a79b1e258ff157e775211f32a4eb37c5cce38cc2fbea45da6e925067d3e42d2"
+    },
+    {
+      "path": "RESULTS.md",
+      "bytes": 6711,
+      "sha256": "38ffe75a676d8f1f3c5fdeb61e02d562ba8c7f64b71b465b5c3e19685ac4e219"
+    },
+    {
+      "path": "logs.zip",
+      "bytes": 890308,
+      "sha256": "c12d736f1b6a34614179262e60b0ff5b792c0a775b65ece4a96e0407b846d19b"
+    },
+    {
+      "path": "logs-receipt.json",
+      "bytes": 361384,
+      "sha256": "1f7f935ac530a544c432f13e9ab1d120eed36c53ddd464e361ab8b56d9378857"
+    }
+  ],
+  "raw_stdout_logs": 2016,
+  "stdout_hash_checks": 2016,
+  "archive_readback_hash_checks": 2016,
+  "possible_secret_findings": [],
+  "excluded": [
+    "solver binaries",
+    "runtime DLLs",
+    "mail files"
+  ],
+  "fixed_run_count": 2016
+}

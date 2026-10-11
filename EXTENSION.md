@@ -1,16 +1,19 @@
-# Further explicit Egyptian-fraction certificates for N = 19, 20, 21
+# Four explicit Egyptian-fraction certificates for minimum denominators 18–21
 
 Kyunghan Bae · 12 October 2026
 
-Let k(N) be the least number of distinct unit fractions whose denominators are all at least N and whose sum is 1. The certificates below establish
+Let k(N) be the least number of distinct unit fractions with denominators at least N whose sum is 1. Together with the N=18 construction in [NOTE.md](NOTE.md), the exact certificates establish k(18)≤34, k(19)≤36, k(20)≤38 and k(21)≤39. Each certificate is a finite rational identity, verified by exact fraction addition and an integer least-common-multiple check. The constructions shorten specified previously published certificates by rational substitutions and classical two-term completion.
 
-$
-k(19)\le36,\qquad k(20)\le38,\qquad k(21)\le39.
-$
+| N | Certificate term count | Largest denominator |
+|---|---:|---:|
+| 18 | 34 | 10457416992 |
+| 19 | 36 | 10457416992 |
+| 20 | 38 | 755732875917998385 |
+| 21 | 39 | 60692489317197426150 |
 
 For comparison, the computational record [Erdos 295 upper bounds N=11..22](https://botnet.com/artifacts/c1db3093-569e-4e89-bced-fd38231c0268), published by grind-35 on 24 September 2026, supplies upper bounds 38, 39 and 40. All twelve vectors in that source were rechecked with exact rational arithmetic before using its N=20 and N=21 certificates as inputs. The comparison is to that identified record; a complete literature survey remains separate.
 
-| N | Compared upper bound | Upper bound here | Largest denominator here | Compared maximum bit length | Maximum bit length here |
+| N | Cited certificate term count | Certificate term count here | Largest denominator here | Compared maximum bit length | Maximum bit length here |
 |---|---:|---:|---:|---:|---:|
 | 19 | 38 | 36 | 10457416992 | 273 | 34 |
 | 20 | 39 | 38 | 755732875917998385 | 241 | 60 |
@@ -21,6 +24,8 @@ Every certificate contains N itself, so it also gives the corresponding upper bo
 ## A reusable exact two-term completion rule
 
 The following classical factorization provides the construction used for N=20 and N=21. The divisor method is described in [David Eppstein, Algorithms for Egyptian Fractions, brute-force search](https://ics.uci.edu/~eppstein/numth/egypt/force.html). The contribution reported here is the resulting explicit finite certificates.
+
+Alekseyev's [public Sage implementation](https://github.com/maxale/egyptian-fractions/blob/8680599e77683a9057ee55871a0893bb319300e8/egypt_rep.sage) enumerates fixed-length Egyptian-fraction representations using exact rational arithmetic and trial- or factorization-based two-term completion. Its original distinct-denominator, unbounded-domain interface is used in the separate [fixed-input comparison](benchmark/README.md).
 
 Let P be any finite set of distinct integers at least N, with reciprocal sum less than 1. Write its residual sum in lowest terms as
 
@@ -81,6 +86,10 @@ $
 
 Both pairs satisfy the factorization in the completion rule. The retained prefixes and all removed original tail terms are preserved in certificates-extension.json, so each replacement can be checked independently of the search program.
 
+## Elementary overlap constraints
+
+An elementary cancellation lemma converts a completed family of local shortening exclusions into an overlap constraint on every shorter representation. For the 34-term reference A, the completed searches give |B∩A|≤28 and |B∩(A∖C)|≤27 for every 33-term candidate, where C consists of the two largest reference denominators. Exact bounds under these nested quotas use classical weighted greedy optimization for laminar matroids. Membership-pattern dynamic programming and weak duality provide related bounds for crossing quotas. Full proofs and verification records are in [STRUCTURE.md](STRUCTURE.md). The finite support used to evaluate these bounds does not restrict the denominators allowed in the representation search.
+
 ## Verification and scope
 
 Run Python 3.9 or later, with no additional packages:
@@ -97,8 +106,8 @@ The techniques are classical rational substitutions and divisor-based two-term c
 
 ## Computational contribution
 
-Kyunghan Bae initiated this project. OpenAI Codex agents generated and ran the searches, found the certificates, and assisted with the exposition.
+Kyunghan Bae initiated the project. OpenAI Codex agents implemented and ran the searches, found the certificates, and assisted with verification and exposition.
 
-## Earlier certificate and external review
+## Earlier certificate and public verification
 
-The N=18 certificate and its derivation are preserved in [NOTE.md](NOTE.md) and the [v1.0 archive](https://doi.org/10.5281/zenodo.23297810). [Erdős Problem a Day](https://erdosproblemaday.com/day/295-k17-exact) independently recomputed that finite identity and credited it in its 11 October update; its verification process is documented in the [submission review](https://erdosproblemaday.com/submission/urbtgs).
+The N=18 certificate and its derivation are preserved in [NOTE.md](NOTE.md) and the [v1.0 archive](https://doi.org/10.5281/zenodo.23297810). The linked [public computational verification](https://erdosproblemaday.com/submission/urbtgs) recomputes its finite identity and records the verification procedure.

@@ -1,7 +1,7 @@
 # Licensing
 
-Python, C#, C++, PowerShell, and workflow source files are released under the MIT License in LICENSE.
+Project-authored Python, JavaScript, C#, C++, PowerShell, Sage wrapper and workflow source files use the MIT License in LICENSE.
 
-NOTE.md, erdos295-note.tex, README.md, and proofs.md are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/ . Attribute the research note to Kyunghan Bae and preserve its source references and computational-contribution statement.
+Research notes and documentation in Markdown, LaTeX and PDF, including RESEARCH_NOTE.md, erdos295-extension.tex and erdos295-extension.pdf, use Creative Commons Attribution 4.0 International (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/ . Attribute the research text to Kyunghan Bae and preserve its source references and computational-contribution statement. Generated benchmark records also use CC BY 4.0.
 
-Exact mathematical data, certificates, and execution records accompany the note for reproduction. Mathematical facts are provided for unrestricted verification and reuse. Third-party sources remain subject to their own terms; they are linked rather than bundled.
+Mathematical facts and identities remain available for unrestricted verification and reuse. Third-party sources retain their own terms. The original Sage solver is linked and fetched at runtime; its source is not bundled.

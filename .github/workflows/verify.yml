@@ -20,6 +20,10 @@ jobs:
           python structure/test_dual.py
           python structure/general_theorem_oracle.py
           python structure/test_atom.py
+      - name: Validate stored benchmark comparison records
+        run: |
+          python benchmark/test_cloud_compare.py
+          python benchmark/cloud_pilot.py compare --cpp-dir benchmark/cloud-results/matched-cloud-results --sage-dir benchmark/cloud-results/upstream-cloud-results --output ci-cloud-comparison.json
       - name: Reproduce the uncapped 32-term exclusion
         run: |
           python search-runner.py --engine search-earlyterminal.py --minimum 18 --terms 32 --seconds 600 --output ci-lower-bound.jsonl

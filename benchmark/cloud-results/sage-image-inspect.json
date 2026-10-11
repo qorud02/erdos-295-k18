@@ -1,0 +1,81 @@
+[
+    {
+        "Id": "sha256:aeef59a8c17212357aeb83bd7f1cfac43bb1c789ae3fa2d887227c763bdfcac3",
+        "RepoTags": [],
+        "RepoDigests": [
+            "sagemath/sagemath@sha256:e2e4747b0e1ea8753a9cb5a399314a8b2c25fcefaf69ba85b22ee075829d09ea"
+        ],
+        "Parent": "",
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2025-12-19T05:31:25.985306842Z",
+        "DockerVersion": "",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "sage",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "8888/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LC_ALL=C.UTF-8",
+                "LANG=C.UTF-8",
+                "SHELL=/bin/bash",
+                "HOME=/home/sage"
+            ],
+            "Cmd": [
+                "sage"
+            ],
+            "ArgsEscaped": true,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "/home/sage",
+            "Entrypoint": [
+                "/usr/local/bin/sage-entrypoint"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "maintainer": "Erik M. Bray <erik.bray@lri.fr>, Julian Rüth <julian.rueth@fsfe.org>, Sebastian Oehms <seb.oehms@gmail.com>",
+                "org.opencontainers.image.ref.name": "ubuntu",
+                "org.opencontainers.image.version": "22.04"
+            }
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 3037271211,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/c7a8501848e1cc5401c58689dcf0d147700e32c85df79e3e509135a548a36670/diff:/var/lib/docker/overlay2/a83e058c087ae5ff9196bc9a2d4a1330d1c3d089fa55a3119738fea4106975f4/diff:/var/lib/docker/overlay2/1f5111b443af3cecd0194588288efc20fc82ac30658d4b44050e4a04e1d334a5/diff:/var/lib/docker/overlay2/f8a1c97b77a342f298a910e04eb79898f0b44de1888e3d1d87ed67a171f4ff80/diff:/var/lib/docker/overlay2/51eb317873c49dd672cba00c829dc3b9870edbccee61df765672e4d34758124b/diff:/var/lib/docker/overlay2/1054976a8a123ae4cfb427bd24eacc3148329033fb4e8e9bcbb8f969b5a075a5/diff:/var/lib/docker/overlay2/85320a7eaddf6e6486a6dab60042174ec0755519c900007cca3926ef14458a1c/diff:/var/lib/docker/overlay2/95d846341ce8cf70ea557584bd1a1d5c82902f4ca58fb655c13edf4f5a55fdfc/diff:/var/lib/docker/overlay2/0420831e49a302fb09e93da5f7d77c5b06f8d622590a63add0f0e3ba92e7f699/diff",
+                "MergedDir": "/var/lib/docker/overlay2/8d96313539286d831dc01f4d420a6be17aade42878811d497f5be29581a9ee27/merged",
+                "UpperDir": "/var/lib/docker/overlay2/8d96313539286d831dc01f4d420a6be17aade42878811d497f5be29581a9ee27/diff",
+                "WorkDir": "/var/lib/docker/overlay2/8d96313539286d831dc01f4d420a6be17aade42878811d497f5be29581a9ee27/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:73974f74b436f39a2fdb6461b1e3f7c3e41c73325776fa71d16b942a5b4a365b",
+                "sha256:902b85d685e7a3c0c1a3600bc2b0eaffcfa0ac8de0b179e167aa9cf19d829675",
+                "sha256:02b3c3194a58f67ce606a533cb9f44fa2eee4ed6dddc24ef29ed08888ef2cca6",
+                "sha256:fa13426f682d4d987de34379e4d23f6d1b5a408d4cefd1980d3cdc2ce79544cb",
+                "sha256:6049e9bd96f3f6bffb820131c7be7d782c537971f25b5bacb13f64dc471b2f33",
+                "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+                "sha256:91a7552bd07a6bbfa1999d240d881e50d4792c850e06a523c23d0217beff2ee6",
+                "sha256:d34a2570761c584a8b36ada7c2c901025a402f1b27cac891b5cc4213f57cd33d",
+                "sha256:c9da91dbf8f5a6749db599ab5108294e173c8d3a37cbe07a5809430684f4e78a",
+                "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]

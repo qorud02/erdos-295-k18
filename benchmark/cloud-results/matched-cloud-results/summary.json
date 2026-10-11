@@ -1,0 +1,18 @@
+{
+  "cases": 53,
+  "runs": 159,
+  "per_mode": {
+    "off": {
+      "exhausted": 53
+    },
+    "single": {
+      "exhausted": 53
+    },
+    "nested": {
+      "exhausted": 53
+    }
+  },
+  "errors": 0,
+  "source_unchanged": true,
+  "binary_unchanged": true
+}
