@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "claim": "k(18) <= 34",
+  "terms": 34,
+  "minimum": 18,
+  "distinct": 34,
+  "exact_sum": "1",
+  "lcm": "6209352774424800",
+  "scaled_sum": "6209352774424800",
+  "surgery_lcm": "636856694812800",
+  "surgery_left_weights": [
+    15163254638400,
+    995088585645,
+    1888213635,
+    366926912,
+    9300
+  ],
+  "surgery_right_weights": [
+    13844710756800,
+    2315842526592,
+    45029600,
+    60900
+  ],
+  "surgery_scaled_sum": "16160598373892",
+  "checks": [
+    "Fraction sum",
+    "integer LCM sum",
+    "35-to-34 surgery",
+    "JSON agreement"
+  ]
+}

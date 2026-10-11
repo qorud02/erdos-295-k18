@@ -1,0 +1,106 @@
+{
+  ".gitignore": {
+    "bytes": 40,
+    "sha256": "778b27779e7667551ae5880de6930590bc7fa6f1d566b6be843dc19407448317"
+  },
+  "certificate-34-independent.json": {
+    "bytes": 481,
+    "sha256": "1593f3c875c06d7aa5e2446e6977e2a4ee97dcc7b1de484e93b5476f616a219a"
+  },
+  "CITATION.cff": {
+    "bytes": 348,
+    "sha256": "c1dc0806ba10ad15c880834e66bda479312f9dbea3f25c2912928bdb5ad56697"
+  },
+  "cpp-n18-t32.log": {
+    "bytes": 1515,
+    "sha256": "3a592ff880c72f0b82213a49835af0991e09d14692e28c97e60e2f70a821e3a5"
+  },
+  "early-n18-t32.log": {
+    "bytes": 6062,
+    "sha256": "d4a571cac6fba9b9cfbbf2c017452ee76e301cd571b0752fda34575d5b7fbd6d"
+  },
+  "erdos295-note.tex": {
+    "bytes": 5153,
+    "sha256": "40a6589c228d05855f3c2c94e5058bd8327a92a6677321ede70694c2da75ac84"
+  },
+  "independent-native-validation.jsonl": {
+    "bytes": 14169,
+    "sha256": "d76fdc307d29ec61f2fe4484816cd335b63d979128d09459e11cd84ba912aacf"
+  },
+  "LICENSE": {
+    "bytes": 1069,
+    "sha256": "660b3b57864aaed8c67415ea9f039bc2c947c8bc1c11de9a251a00951db07637"
+  },
+  "LICENSES.md": {
+    "bytes": 680,
+    "sha256": "ee37ce55412779c947e3a7c24fbc02b9d0d81dfeeeb945689565e7eb9bf11c15"
+  },
+  "NOTE.md": {
+    "bytes": 4816,
+    "sha256": "ff511bd5274fb67b172d25f97bcf55d0eb444c0ae9beb4b8021a101b4d104747"
+  },
+  "proofs.md": {
+    "bytes": 6443,
+    "sha256": "5067f363d718e57665bf72a3a500e7ff72915ad3326cb020185899857b432d98"
+  },
+  "README.md": {
+    "bytes": 2718,
+    "sha256": "053abe0b621660f4718ba1c9e72d7da30ce5ef3e8e5260342883a76925be97cd"
+  },
+  "run-native.ps1": {
+    "bytes": 465,
+    "sha256": "1f25271830257656207f45da940c8d28266cd0d3b55efa0f75f8650ca451ef1c"
+  },
+  "search-cpp.cpp": {
+    "bytes": 12286,
+    "sha256": "63353f9010c84cec04662fd367befaeb089baf95f40eecbed73e27528df4790e"
+  },
+  "search-earlyterminal.py": {
+    "bytes": 1185,
+    "sha256": "60b8f4e5076cc3f0034ca8aff50856aa29fa39efa446928232ea17787dd716f4"
+  },
+  "search-fasttail.py": {
+    "bytes": 2864,
+    "sha256": "2d1929ddd20f24edc4753a61534d63cbb9d6a37f4e5fd0e1b9b5040b9aeeb510"
+  },
+  "search-independent.py": {
+    "bytes": 10038,
+    "sha256": "9b302843486e13d8ab0ddc1f54138a3a37d1c04199e3713b28390ca6e9556604"
+  },
+  "search-native.cs": {
+    "bytes": 9562,
+    "sha256": "e1c8e3976b6e5313fae0e052462b011eee9479f060994c3377d34b3859c916d4"
+  },
+  "search-runner.py": {
+    "bytes": 882,
+    "sha256": "c78ccbcaf312e34d0f995c0f804c578a0ad1b0dce2ca5ffa941c405e5b2ffba2"
+  },
+  "search-strong.py": {
+    "bytes": 2766,
+    "sha256": "7e5e1a9d2ddd1331ce855a6a5b5f6fa262afed40d4829cc8ee3353d6c116df43"
+  },
+  "search-terminalbound.py": {
+    "bytes": 1886,
+    "sha256": "ce66f09bbb79d3c22595fc822bd76746538fb41ca9bd0d288421f78c9b2a9762"
+  },
+  "verify-certificate-result.json": {
+    "bytes": 610,
+    "sha256": "5d64161f5000e10dcd3984a30f24680b7231b97e51c5a2dbb9338a477056144a"
+  },
+  "verify-certificate.py": {
+    "bytes": 2931,
+    "sha256": "2313ee84b4d3842ffecdf59a8b3a189c949641ae3aa8db60a2c4ddd2c7a2b1cf"
+  },
+  "verify-fasttail.json": {
+    "bytes": 144,
+    "sha256": "5d71d4412c238e91ab72690558240240abf1b213eda27ae5bd8046436509af7f"
+  },
+  "verify-fasttail.py": {
+    "bytes": 2021,
+    "sha256": "22a4e739dabb86926a90b9809ecb6879a4cc12aa7d87dd9128e6c0326e73556b"
+  },
+  ".github/workflows/verify.yml": {
+    "bytes": 1262,
+    "sha256": "587c36e3ae67cdbfd220226d6f253e50273d82b4ad3b4deb65c9d9a71c7f1701"
+  }
+}

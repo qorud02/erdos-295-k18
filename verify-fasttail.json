@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "seed": 20261011,
+  "checks": {
+    "two_oracles": 2000,
+    "three_oracles": 300,
+    "known_two": 5000
+  }
+}

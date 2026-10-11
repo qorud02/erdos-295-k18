@@ -1,0 +1,34 @@
+name: Exact certificate and lower-bound reproduction
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify the 34-term certificate
+        run: python verify-certificate.py
+      - name: Reproduce the uncapped 32-term exclusion
+        run: |
+          python search-runner.py --engine search-earlyterminal.py --minimum 18 --terms 32 --seconds 600 --output ci-lower-bound.jsonl
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r = json.loads(Path("ci-lower-bound.jsonl").read_text().splitlines()[-1])
+          assert r["status"] == "exhausted", r
+          assert r["max_denominator"] is None
+          assert r["stats"]["nodes"] == 814918, r
+          assert r["stats"]["prime_prunes"] == 134999, r
+          assert r["stats"]["quadratic_early_prunes"] == 648193, r
+          assert r["failed_states"] == 31726, r
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: exact-lower-bound-log
+          path: ci-lower-bound.jsonl
