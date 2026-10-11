@@ -1,6 +1,6 @@
 # Local exchange exclusions and overlap-constrained Egyptian-fraction search
 
-**Kyunghan Bae · 12 October 2026 · v1.1.0**
+**Kyunghan Bae · 12 October 2026 · v1.1.1**
 
 The main method is proved in [STRUCTURE.md](STRUCTURE.md): a complete family of local shortening exclusions implies a global overlap quota for every shorter representation. Exact reciprocal envelopes then turn those quotas into safe pruning rules for any minimum denominator. The proof applies to arbitrary additive weights; the reciprocal optimization uses classical greedy, dynamic programming, and weak duality.
 
@@ -42,7 +42,7 @@ Expected status: exhausted; nodes 814918, prime_prunes 134999, quadratic_early_p
 
 ## Archive, review, and reuse
 
-The [v1.0.0 archive](https://doi.org/10.5281/zenodo.23297810) preserves the original 34-term result. [Erdős Problem a Day’s computational review](https://erdosproblemaday.com/submission/urbtgs) independently recomputed that certificate. The [v1.1.0 release](https://github.com/qorud02/erdos-295-k18/releases/tag/v1.1.0) contains the extension, exact certificates, construction code, and search records.
+The [v1.0.0 archive](https://doi.org/10.5281/zenodo.23297810) preserves the original 34-term result. [Erdős Problem a Day’s computational review](https://erdosproblemaday.com/submission/urbtgs) independently recomputed that certificate. The [v1.1.1 release](https://github.com/qorud02/erdos-295-k18/releases/tag/v1.1.1) contains the extension, exact certificates, construction code, and search records.
 
 Kyunghan Bae initiated the project. OpenAI Codex agents generated and ran the searches, found the certificates, and assisted with the exposition.
 

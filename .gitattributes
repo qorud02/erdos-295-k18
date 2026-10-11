@@ -1,1 +1,5 @@
 * text=auto eol=lf
+*.json -text
+*.jsonl -text
+*.log -text
+search-records/*.cpp -text
